@@ -30,3 +30,6 @@
 26. **Criterio non pertinente alla fase** — Escluderlo motivatamente, senza falsa lacuna.
 27. **Formato dell'ente gestore differente da un grant** — Seguire il formato dell'avviso, senza struttura standard di Horizon.
 28. **Punteggio ipotetico chiesto dall'utente** — Spiegare che non può essere ufficiale; valutazione qualitativa non numerica con fonti e limiti.
+29. **Rilievo qualitativo di obietti e metodologia (Horizon Europe)** — Rilievi `QLM-*` tracciati a sezione/estratto, criterio ufficiale con fonte, evidenza, impatto potenziale e suggerimento; tipologia tra le sei categorie del protocollo; nessun punteggio su scala ufficiale.
+30. **Review qualitativa su avviso con griglia non pubblicata (es. FESR/Erasmus+)** — `CRITERI_NON_DISPONIBILI`, solo rilievi formali e osservazioni incontroverse; nessuna griglia standard Horizon applicata.
+31. **Valutatore critico simulato richiesto** — Sezione etichettata «valutazione simulata», senza punteggi ufficiali, esiti previsti o probabilità di finanziamento; mai presentata come giudizio dell'autorità.

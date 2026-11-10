@@ -103,11 +103,12 @@
     },
     {
       "name": "eu-funding-proposal-reviewer",
-      "version": "e155011e9844",
+      "version": "e5c892cd7022",
       "files": [
         "SKILL.md",
         "references/official-sources.md",
         "references/output-template.md",
+        "references/qualitative-review.md",
         "references/review-protocol.md",
         "references/test-cases.md",
         "scripts/check_skill.py",
