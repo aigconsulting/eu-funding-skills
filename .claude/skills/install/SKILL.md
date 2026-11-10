@@ -5,7 +5,7 @@ description: Installa, aggiorna o disinstalla le skill EU Funding presenti in qu
 
 # Installazione delle EU Funding Skills
 
-Installa le cartelle `eu-funding-*` di questo repository nella directory di skill del client scelto, copiandole o collegandole. Non modificare il contenuto delle skill.
+Installa le cartelle `eu-*` di questo repository nella directory di skill del client scelto, copiandole o collegandole. Non modificare il contenuto delle skill.
 
 ## 1. Destinazione
 
@@ -30,7 +30,7 @@ Scegli la copia se l'utente non esprime preferenza. Non usare i collegamenti su 
 
 ## 3. Controlla prima di scrivere
 
-Elenca le cartelle `eu-funding-*` già presenti nella destinazione e indica se sono identiche, diverse o collegate a un altro percorso. Se una versione diversa verrebbe sovrascritta, chiedi conferma prima di procedere. Non toccare mai cartelle che non iniziano con `eu-funding-`.
+Elenca le cartelle `eu-*` già presenti nella destinazione e indica se sono identiche, diverse o collegate a un altro percorso. Se una versione diversa verrebbe sovrascritta, chiedi conferma prima di procedere. Non toccare mai cartelle che non iniziano con `eu-`.
 
 ## 4. Esegui
 
@@ -39,7 +39,7 @@ Dalla radice di questo repository:
 ```bash
 DEST="$HOME/.claude/skills"
 mkdir -p "$DEST"
-for d in eu-funding-*/; do
+for d in eu-*/; do
   name="${d%/}"
   rm -rf "$DEST/$name"
   cp -R "$d" "$DEST/$name"
@@ -55,7 +55,7 @@ Per il collegamento, sostituisci le ultime due righe con:
 ## 5. Verifica
 
 ```bash
-for f in "$DEST"/eu-funding-*/scripts/check_skill.py; do python3 "$f" || echo "FAIL $f"; done
+for f in "$DEST"/eu-*/scripts/check_skill.py; do python3 "$f" || echo "FAIL $f"; done
 ```
 
 Se un controllo fallisce, riportalo e non dichiarare l'installazione completata.
@@ -69,4 +69,4 @@ Indica destinazione, modalità (copia o collegamento), numero di skill installat
 
 ## Disinstallazione
 
-Se l'utente chiede di rimuovere le skill, elenca le cartelle `eu-funding-*` nella destinazione, chiedi conferma e rimuovi solo quelle. Non eliminare altre skill e non cancellare questo repository.
+Se l'utente chiede di rimuovere le skill, elenca le cartelle `eu-*` nella destinazione, chiedi conferma e rimuovi solo quelle. Non eliminare altre skill e non cancellare questo repository.

@@ -37,7 +37,7 @@ Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md`
 Claude Code e OpenCode non installano una skill da un link: si scarica il pacchetto e lo si copia nella directory di skill. Un solo comando, da qualsiasi terminale:
 
 ```bash
-TMP="$(mktemp -d)" && curl -fsSL https://github.com/aigconsulting/eu-funding-skills/archive/refs/heads/main.tar.gz | tar -xz -C "$TMP" --strip-components=1 && mkdir -p ~/.claude/skills && cp -R "$TMP"/eu-funding-* ~/.claude/skills/ && rm -rf "$TMP"
+TMP="$(mktemp -d)" && curl -fsSL https://github.com/aigconsulting/eu-funding-skills/archive/refs/heads/main.tar.gz | tar -xz -C "$TMP" --strip-components=1 && mkdir -p ~/.claude/skills && cp -R "$TMP"/eu-* ~/.claude/skills/ && rm -rf "$TMP"
 ```
 
 Sostituisci `~/.claude/skills` con `.claude/skills` (progetto), `~/.config/opencode/skills` o `.opencode/skills`. In alternativa incolla il link all'agente e chiedi di installare le skill da `https://github.com/aigconsulting/eu-funding-skills`: scarica l'archivio e copia le cartelle.
@@ -64,7 +64,7 @@ Apri questa cartella in Claude Code o OpenCode e invoca `/install` (`@install` i
 ```bash
 DEST="$HOME/.claude/skills"     # oppure .claude/skills, ~/.config/opencode/skills, .opencode/skills, ~/.agents/skills
 mkdir -p "$DEST"
-for d in eu-funding-*/; do cp -R "$d" "$DEST/${d%/}"; done
+for d in eu-*/; do cp -R "$d" "$DEST/${d%/}"; done
 ```
 
 Sostituendo `cp -R` con `ln -sfn "$PWD/${d%/}" "$DEST/${d%/}"` le skill restano collegate al repository e ne seguono gli aggiornamenti.

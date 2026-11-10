@@ -2,7 +2,7 @@
 """Check the distribution catalog `index.json` against the actual skill folders.
 
 Verifies (deterministic, dependency-free):
-1. every `eu-funding-*` directory in the repository root has an entry in index.json,
+1. every `eu-*` skill directory in the repository root has an entry in index.json,
    and every entry in index.json has a matching directory;
 2. for each entry, the listed files exist in the directory, and every
    `SKILL.md`, `references/*.md` and `scripts/*` file present in the directory is
@@ -74,7 +74,7 @@ def main() -> int:
 
     directories = sorted(
         p.name for p in ROOT.iterdir()
-        if p.is_dir() and p.name.startswith("eu-funding-")
+        if p.is_dir() and p.name.startswith("eu-")
     )
     listed = [entry.get("name") for entry in entries]
 

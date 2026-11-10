@@ -27,7 +27,7 @@ jobs:
       - name: Controlli statici delle skill (check_skill.py)
         run: |
           set -euo pipefail
-          for script in eu-funding-*/scripts/check_skill.py; do
+          for script in eu-*/scripts/check_skill.py; do
             echo "::group::$script"
             python3 "$script"
             echo "::endgroup::"
