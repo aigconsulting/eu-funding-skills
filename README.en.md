@@ -6,6 +6,7 @@ This repository is an independent collection of skills for navigating European U
 
 ## Available skills
 
+0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — **Skill 00** (preparatory) — explains and reconstructs the EU institutional framework: institutions, consultative bodies, the Commission's structure, DGs and agencies, decision-making and budget processes, with a static map and dynamic on-demand research against primary sources; it does not search calls nor assess eligibility.
 1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — reconstructs the documented hierarchy and links between priorities, MFF (QFP), programme, work programme, call and topic, taking the funding management modes into account.
 2. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — starts from an objective and identifies plausible EU programmes, funds and instruments, distinguishing purposes, modes and official channels.
 3. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — searches and verifies specific topics, calls and notices, with status, phases, deadlines, conditions and primary links.
@@ -118,6 +119,6 @@ The CI attests **only structure, metadata, local consistency and the arithmetic 
 
 ## Versions
 
-- Skills 01–10: each v0.1 (operational draft, testable).
+- Skills 00–10: each v0.1 (operational draft, testable).
 - Cumulative package: **v0.11**, 10 November 2026.
 - v0.11 adds the `.claude/skills/install` skill (`/install`, `@install`), the HTTP catalog `index.json` to install the skills in OpenCode from a URL, and installation instructions for Claude Code, OpenCode and other Agent Skills clients. If you modify a skill's files, regenerate `index.json` with the new version.
