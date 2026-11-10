@@ -1,30 +1,6 @@
 {
   "skills": [
     {
-      "name": "eu-funding-partnership-designer",
-      "version": "05466ed82dfe",
-      "files": [
-        "SKILL.md",
-        "references/official-sources.md",
-        "references/output-template.md",
-        "references/partnership-map.md",
-        "references/test-cases.md",
-        "scripts/check_skill.py"
-      ]
-    },
-    {
-      "name": "eu-institutional-framework",
-      "version": "23187a889924",
-      "files": [
-        "SKILL.md",
-        "references/institutional-map.md",
-        "references/official-sources.md",
-        "references/output-template.md",
-        "references/test-cases.md",
-        "scripts/check_skill.py"
-      ]
-    },
-    {
       "name": "eu-funding-application-planner",
       "version": "8baced5cc6d6",
       "files": [
@@ -45,6 +21,14 @@
         "references/official-sources.md",
         "references/output-template.md",
         "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-closure-manager",
+      "version": "6a7d1b5a3600",
+      "files": [
+        "SKILL.md",
         "scripts/check_skill.py"
       ]
     },
@@ -75,6 +59,14 @@
       ]
     },
     {
+      "name": "eu-funding-grant-agreement-manager",
+      "version": "9cac4e41cc6a",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-hierarchy",
       "version": "96870f1cf6db",
       "files": [
@@ -82,6 +74,18 @@
         "references/official-sources.md",
         "references/output-template.md",
         "references/taxonomy.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-partnership-designer",
+      "version": "05466ed82dfe",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/partnership-map.md",
+        "references/test-cases.md",
         "scripts/check_skill.py"
       ]
     },
@@ -123,6 +127,14 @@
       ]
     },
     {
+      "name": "eu-funding-project-manager",
+      "version": "9053f4d18612",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-proposal-drafter",
       "version": "0a0ac1f29ca4",
       "files": [
@@ -153,6 +165,14 @@
       ]
     },
     {
+      "name": "eu-funding-reporting-manager",
+      "version": "14a58876a787",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-submission-checker",
       "version": "9040207f011b",
       "files": [
@@ -164,6 +184,18 @@
         "scripts/check_skill.py",
         "scripts/test_validator.py",
         "scripts/validate_precheck.py"
+      ]
+    },
+    {
+      "name": "eu-institutional-framework",
+      "version": "23187a889924",
+      "files": [
+        "SKILL.md",
+        "references/institutional-map.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
       ]
     }
   ]
