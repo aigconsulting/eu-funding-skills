@@ -121,7 +121,7 @@ Il workflow `.github/workflows/ci.yml` esegue, a ogni pull request e push su `ma
 
 La CI attesta **solo struttura, metadati, coerenza locale e validità aritmetica dei validatori deterministici**. **Non** prova: l'esattezza delle regole dei bandi, l'accessibilità delle fonti al momento dell'uso, la correttezza sostanziale delle proposte, la conformità giuridica delle uscite o il comportamento reale degli agenti. Le prove end-to-end con agente sono tracciate in issue specifiche (vedi la issue di validazione end-to-end del repository).
 
-## Dossier progettuale condiviso (proposta)
+## Dossier progettuale condiviso
 
 La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio** fra le skill: schema minimo versionato ( [`dossier.schema.json`](dossier/dossier.schema.json) ), esempio [sintetico](dossier/example-dossier.json), validatore deterministico ( `python3 dossier/check_dossier.py <file.json>` ) e [test unitari](dossier/test_dossier.py). Il dossier è **opzionale**, funziona su file locali senza persistenza remota e consegna l'evidenza dei passaggi fra le skill (`opportunita`, `evidenze`, `requisiti`, `progetto`, `finanza`, `revisioni`) con gli stati `VERIFICATO`, `DA_CONFERMARE`, `IPOTESI`, `PROPOSTA`, `DECISIONE_APPROVATA`, `MANCANTE`, `NON_APPLICABILE`; una rettifica del bando **non conferma** automaticamente osservazioni precedenti (sistema del `ultima_verifica` — [README dossier](dossier/README.md)). Non è un servizio né un archivio di dati personali.
 
