@@ -24,44 +24,41 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md`, `references/` e `scripts/`, quindi lo stesso pacchetto funziona con Claude Code, OpenCode e gli altri client compatibili. Installare significa rendere disponibili le cartelle `eu-funding-*` nella directory di skill del client.
 
-### Script di installazione
+### Installazione da Claude Code o OpenCode
+
+Apri questo repository nell'agente e invoca la skill di installazione:
+
+- **Claude Code:** `/install`
+- **OpenCode:** `@install`
+
+La skill `.claude/skills/install/SKILL.md` chiede la destinazione, copia o collega le dieci cartelle `eu-funding-*`, esegue i controlli statici e riporta come invocare le skill. Per rimuoverle basta chiederlo alla stessa skill: elimina solo le cartelle `eu-funding-*`.
+
+### Installazione manuale
 
 ```bash
-python3 install.py --list              # skill e destinazioni disponibili
-python3 install.py claude              # ~/.claude/skills (Claude Code, tutti i progetti)
-python3 install.py claude-project      # .claude/skills (solo il repository corrente)
-python3 install.py opencode            # ~/.config/opencode/skills
-python3 install.py opencode-project    # .opencode/skills
-python3 install.py ~/.agents/skills    # percorso esplicito
-python3 install.py claude --link       # symlink: gli aggiornamenti del repo sono immediati
-python3 install.py claude --dry-run    # mostra le operazioni senza modificare nulla
-python3 install.py claude --uninstall  # rimuove le skill installate
+DEST="$HOME/.claude/skills"     # oppure .claude/skills, ~/.config/opencode/skills, .opencode/skills, ~/.agents/skills
+mkdir -p "$DEST"
+for d in eu-funding-*/; do cp -R "$d" "$DEST/${d%/}"; done
 ```
 
-Opzioni: `--force` sovrascrive versioni diverse già presenti, `--verify` esegue prima i controlli statici. Lo script non installa dipendenze e non modifica la configurazione dei client; senza `--force` non sovrascrive nulla e segnala le skill già installate.
+Sostituendo `cp -R` con `ln -sfn "$PWD/${d%/}" "$DEST/${d%/}"` le skill restano collegate al repository e ne seguono gli aggiornamenti.
 
-### Claude Code
+### Dove metterle
 
-| Ambito | Comando | Percorso |
+| Client | Ambito | Destinazione |
 | --- | --- | --- |
-| Personale (tutti i progetti) | `python3 install.py claude` | `~/.claude/skills/<skill>/SKILL.md` |
-| Progetto (da committare per condividerlo) | `python3 install.py claude-project` | `.claude/skills/<skill>/SKILL.md` |
-| Plugin | copia manuale | `<plugin>/skills/<skill>/SKILL.md` |
+| Claude Code | personale (tutti i progetti) | `~/.claude/skills/<skill>/SKILL.md` |
+| Claude Code | progetto (da committare per condividerlo) | `.claude/skills/<skill>/SKILL.md` |
+| Claude Code | plugin | `<plugin>/skills/<skill>/SKILL.md` |
+| OpenCode | globale | `~/.config/opencode/skills/<skill>/SKILL.md` (o `$XDG_CONFIG_HOME/opencode/skills`) |
+| OpenCode | progetto | `.opencode/skills/<skill>/SKILL.md` |
+| Altri client Agent Skills | globale | `~/.agents/skills/<skill>/SKILL.md` |
 
-Le skill compaiono in `/skills` e si invocano con `/eu-funding-hierarchy`. Se la directory `~/.claude/skills` o `.claude/skills` non esisteva all'avvio della sessione, eseguire `/reload-skills`.
+### Uso
 
-### OpenCode
-
-| Ambito | Comando | Percorso |
-| --- | --- | --- |
-| Globale | `python3 install.py opencode` | `~/.config/opencode/skills` (o `$XDG_CONFIG_HOME/opencode/skills`) |
-| Progetto | `python3 install.py opencode-project` | `.opencode/skills` |
-
-OpenCode cerca le skill anche in `~/.claude/skills` e `~/.agents/skills` (e nelle rispettive directory di progetto): l'installazione per Claude Code è quindi già sufficiente. Le skill si caricano con `@eu-funding-hierarchy` oppure automaticamente quando pertinenti; `/reload` forza il ricaricamento. Directory aggiuntive si possono elencare nella chiave `skills` di `opencode.json(c)`.
-
-### Altri client
-
-Qualsiasi client che implementi lo standard Agent Skills carica le cartelle `eu-funding-*` dalla propria directory di skill; `~/.agents/skills` è la convenzione condivisa. Per i client che leggono soltanto un file di istruzioni di progetto (`AGENTS.md`, `CLAUDE.md`, regole dell'editor) conviene rimandare al `SKILL.md` della skill pertinente, che resta la fonte unica: l'installazione con `--link` evita copie divergenti.
+- **Claude Code:** `/skills` elenca le skill, `/eu-funding-hierarchy` la invoca. Se la directory di skill non esisteva all'avvio della sessione, eseguire `/reload-skills`.
+- **OpenCode:** `@eu-funding-hierarchy` la carica, oppure si attiva da sola quando pertinente; `/reload` ricarica la configurazione. OpenCode cerca le skill anche in `~/.claude/skills` e `~/.agents/skills` (e nelle rispettive directory di progetto), quindi l'installazione per Claude Code è già sufficiente. Directory aggiuntive si possono elencare nella chiave `skills` di `opencode.json(c)`.
+- **Altri client:** caricano le cartelle `eu-funding-*` dalla propria directory di skill; `~/.agents/skills` è la convenzione condivisa. Per i client che leggono soltanto un file di istruzioni di progetto (`AGENTS.md`, `CLAUDE.md`, regole dell'editor) conviene rimandare al `SKILL.md` della skill pertinente, che resta la fonte unica.
 
 ## Controlli statici
 
@@ -83,13 +80,12 @@ python3 eu-funding-submission-checker/scripts/check_skill.py
 python3 eu-funding-submission-checker/scripts/test_validator.py
 python3 eu-funding-post-submission-tracker/scripts/check_skill.py
 python3 eu-funding-post-submission-tracker/scripts/test_validator.py
-python3 tests/test_install.py
 ```
 
-I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza locale**, non capacità agentiche o conformità giuridica. La Skill 05 aggiunge 10 test unitari aritmetici del calcolatore; la Skill 07 aggiunge 16 test unitari del validatore formale, la Skill 08 ne aggiunge 25 per il rapporto di revisione e la Skill 09 ne aggiunge 49 per il pre-check e la Skill 10 ne aggiunge 56 per il tracciamento post-invio; `tests/test_install.py` aggiunge 10 test dello script di installazione (copia, collegamento, sovrascrittura, dry-run, disinstallazione). Nessuno è una verifica di conformità normativa. Le fonti devono essere verificate all'atto dell'uso; i casi nei file `references/test-cases.md` non sono test agentici eseguiti. Nessuna skill presenta domande di finanziamento, risponde a richieste delle autorità, effettua registrazioni o controlli ricorrenti autonomi. Il pre-check della Skill 09 non certifica ammissibilità e non è una ricevuta di invio.
+I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza locale**, non capacità agentiche o conformità giuridica. La Skill 05 aggiunge 10 test unitari aritmetici del calcolatore; la Skill 07 aggiunge 16 test unitari del validatore formale, la Skill 08 ne aggiunge 25 per il rapporto di revisione e la Skill 09 ne aggiunge 49 per il pre-check e la Skill 10 ne aggiunge 56 per il tracciamento post-invio. Nessuno è una verifica di conformità normativa. Le fonti devono essere verificate all'atto dell'uso; i casi nei file `references/test-cases.md` non sono test agentici eseguiti. Nessuna skill presenta domande di finanziamento, risponde a richieste delle autorità, effettua registrazioni o controlli ricorrenti autonomi. Il pre-check della Skill 09 non certifica ammissibilità e non è una ricevuta di invio.
 
 ## Versioni
 
 - Skill 01–10: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
-- v0.11 aggiunge `install.py` e `tests/test_install.py` per installare le skill in Claude Code, OpenCode e gli altri client compatibili con Agent Skills.
+- v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`) che installa le dieci skill in Claude Code, OpenCode e gli altri client compatibili con Agent Skills.
