@@ -26,9 +26,10 @@
     },
     {
       "name": "eu-funding-closure-manager",
-      "version": "9bc550bae1d1",
+      "version": "6a7d1b5a3600",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -59,9 +60,10 @@
     },
     {
       "name": "eu-funding-grant-agreement-manager",
-      "version": "9ed7cff50cd7",
+      "version": "9cac4e41cc6a",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -126,9 +128,10 @@
     },
     {
       "name": "eu-funding-project-manager",
-      "version": "00cd5ece3ad4",
+      "version": "9053f4d18612",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -163,9 +166,10 @@
     },
     {
       "name": "eu-funding-reporting-manager",
-      "version": "dd8df6b06de2",
+      "version": "14a58876a787",
       "files": [
-        "SKILL.md"
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
