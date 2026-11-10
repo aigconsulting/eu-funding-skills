@@ -48,5 +48,3 @@ I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza loc
 
 - Skill 01–10: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.10**, 10 novembre 2026.
-- Le versioni ZIP precedenti v0.1, v0.2, v0.3, v0.4, v0.5, v0.6, v0.7, v0.8 e v0.9 restano conservate separatamente.
-- Nessun commit/push GitHub incluso in queste versioni.
