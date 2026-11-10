@@ -6,7 +6,7 @@ from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
 files = ["SKILL.md", "references/evidence-protocol.md", "references/official-sources.md",
-         "references/output-template.md", "references/test-cases.md",
+         "references/output-template.md", "references/programme-cycles.md", "references/test-cases.md",
          "scripts/check_skill.py", "scripts/validate_draft.py", "scripts/test_validator.py"]
 errors = [f"File mancante o vuoto: {p}" for p in files if not (root/p).is_file() or not (root/p).stat().st_size]
 if (root/"SKILL.md").is_file():
@@ -26,7 +26,8 @@ if (root/"SKILL.md").is_file():
             errors.append(f"Link locale non valido: {target}")
     checks = ["indipendente dal programma", "fonte", "OBBLIGATORIO", "CONDIZIONALE",
               "BLOCCATA_DA_FONTI", "PROPOSTA", "STIMA_NON_VALIDATA", "SEGNAPOSTO",
-              "matrice", "non effettuare la submission", "non inventare", "fase"]
+              "matrice", "non effettuare la submission", "non inventare", "fase",
+              "ciclo QFP", "2021–2027", "2028–2034", "programme-cycles"]
     for check in checks:
         if check.casefold() not in body.casefold():
             errors.append(f"Guardrail non trovato: {check}")
