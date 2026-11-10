@@ -1,0 +1,132 @@
+{
+  "schema": "eu-funding-skills/dossier@v1",
+  "dossier_id": "dossier-demo-2026-001",
+  "created": "2026-11-10",
+  "updated": "2026-11-10",
+  "nota": "ESEMPIO SINTETICO: nessun dato reale. Programma, ID e importi sono segnaposto dimostrativi e non rappresentano opportunità esistenti.",
+  "opportunita": {
+    "programma": "PROGRAMMA-DEMO",
+    "fondo": null,
+    "ciclo_QFP": "2021–2027",
+    "autorita": "AUTORITA-DEMO",
+    "modalita_gestione": "NON_VERIFICATO",
+    "fase": "fase_demo",
+    "call_id": null,
+    "topic_id": "TOPIC-DEMO-01",
+    "avviso_id": null,
+    "titolo": "Opportunità dimostrativa segnaposto",
+    "apertura": null,
+    "scadenze": [
+      {
+        "fase": "cut-off-demo",
+        "data": "2027-04-01",
+        "ora_fuso": null,
+        "fonte": "SRC-1"
+      }
+    ],
+    "ultima_verifica": "2026-11-10",
+    "documenti": {
+      "bando/avviso.pdf": "v1.0"
+    }
+  },
+  "proponente": {
+    "denominazione": "PROONENTE-DEMO",
+    "natura_giuridica": null,
+    "paese": null,
+    "dichiarazioni": [
+      {
+        "testo": "Capacità economico-finanziaria dichiarata, da riscontrare sulla contabilità dell'ultimo anno",
+        "stato": "DA_CONFERMARE",
+        "fonte": null,
+        "verificato_il": null,
+        "approvato_da": null,
+        "approvato_il": null
+      }
+    ]
+  },
+  "partenariato": [
+    {
+      "denominazione": "PARTNER-DEMO-A",
+      "ruolo_proposto": "ruolo di demo per attività di ricerca applicata",
+      "stato": "PROPOSTA",
+      "fonte": null
+    }
+  ],
+  "progetto": {
+    "contesto": [],
+    "problemi": [
+      {
+        "testo": "Problema dimostrativo segnaposto per il territorio/destinatari demo",
+        "stato": "IPOTESI",
+        "fonte": null,
+        "verificato_il": null,
+        "approvato_da": null,
+        "approvato_il": null
+      }
+    ],
+    "obiettivi_generali": [
+      { "testo": "Ridurre il gap dimostrativo nel settore demo", "stato": "PROPOSTA", "fonte": null }
+    ],
+    "obiettivi_specifici": [
+      { "testo": "Definire e testare la soluzione demo su un pilot delimitato", "stato": "PROPOSTA", "fonte": null }
+    ],
+    "attivita": [],
+    "output": [
+      { "testo": "Report finale di progetto", "stato": "MANCANTE", "fonte": null }
+    ],
+    "outcome": [],
+    "impatti": [],
+    "indicatori": [],
+    "rischi": [
+      {
+        "testo": "Dipendenza dalla conferma del partner demo",
+        "stato": "IPOTESI",
+        "fonte": null,
+        "verificato_il": null,
+        "approvato_da": null,
+        "approvato_il": null
+      }
+    ]
+  },
+  "finanza": {
+    "valuta": "EUR",
+    "budget_programma": null,
+    "budget_call": null,
+    "budget_topic": null,
+    "costi_progetto": 500000,
+    "contributo_richiesto": 400000,
+    "tasso": null,
+    "cofinanziamento": null,
+    "fonte_regole": "SRC-1",
+    "stato": "DA_CONFERMARE"
+  },
+  "evidenze": [
+    {
+      "id": "SRC-1",
+      "titolo": "Documento demo del bando segnaposto (esemplificativo)",
+      "url": "https://example.org/dossier-demo/doc-unitario-demo",
+      "versione": "v1.0",
+      "data_consultazione": "2026-11-10",
+      "sezione": "esempio",
+      "stato": "VERIFICATO"
+    }
+  ],
+  "requisiti": [
+    {
+      "id": "REQ-1",
+      "testo": "Massimale indicativo segnalato nel documento demo",
+      "fonte": "SRC-1",
+      "sezione": "esempio",
+      "stato": "VERIFICATO",
+      "note": "Segnaposto, da confermare sulla versione corrente della fonte"
+    }
+  ],
+  "revisioni": [
+    {
+      "data": "2026-11-10",
+      "descrizione": "Creazione del dossier dimostrativo per esempio di scambio",
+      "autore": "example",
+      "motivo": "revisione_skill"
+    }
+  ]
+}

@@ -42,6 +42,11 @@ jobs:
             python3 "$script"
             echo "::endgroup::"
           done
+          if [ -f dossier/test_dossier.py ]; then
+            echo "::group::dossier/test_dossier.py"
+            python3 dossier/test_dossier.py
+            echo "::endgroup::"
+          fi
         shell: bash
 
       - name: Congruenza del catalogo di distribuzione (index.json)
