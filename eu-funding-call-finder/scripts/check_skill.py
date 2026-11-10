@@ -7,7 +7,7 @@ import sys
 root = Path(__file__).resolve().parents[1]
 required = [
     "SKILL.md", "references/official-sources.md", "references/output-template.md",
-    "references/test-cases.md", "scripts/check_skill.py",
+    "references/test-cases.md", "references/change-log-protocol.md", "scripts/check_skill.py",
 ]
 errors = []
 for rel in required:
@@ -31,7 +31,11 @@ if skill.exists():
     for rel in re.findall(r"\]\((references/[^)]+\.md)\)", body):
         if not (root / rel).is_file():
             errors.append(f"Link locale non risolvibile: {rel}")
-    for token in ("OPEN_VERIFICATO", "STATO_NON_VERIFICATO", "multiple cut-offs", "call ID", "topic ID"):
+    for token in (
+        "OPEN_VERIFICATO", "STATO_NON_VERIFICATO", "multiple cut-offs",
+        "call ID", "topic ID", "rettifica", "non verificabile",
+        "change-log-protocol",
+    ):
         if token.casefold() not in body.casefold():
             errors.append(f"Garanzia descrittiva mancante: {token}")
 
