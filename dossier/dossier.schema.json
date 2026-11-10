@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eu-funding-skills/dossier/v1",
+  "title": "Dossier progettuale condiviso (proposta minimale, di scambio)",
+  "description": "Formato di scambio tra le skill di eu-funding-skills. Esempio di scambio proposto: nessuna persistenza remota, nessun obbligo di database. Ogni elemento testuale ha `stato` fra VERIFICATO, DA_CONFERMARE, IPOTESI, PROPOSTA, DECISIONE_APPROVATA, MANCANTE, NON_APPLICABILE; `VERIFICATO` richiede `fonte` (id di evidenza) e `verificato_il` (data).",
+  "type": "object",
+  "required": ["schema", "dossier_id", "created", "updated", "opportunita", "evidenze", "requisiti", "revisioni"],
+  "properties": {
+    "schema": { "const": "eu-funding-skills/dossier@v1" },
+    "dossier_id": { "type": "string", "minLength": 1 },
+    "created": { "type": "string", "format": "date" },
+    "updated": { "type": "string", "format": "date" },
+    "opportunita": {
+      "type": "object",
+      "required": ["programma", "ciclo_QFP", "titolo", "ultima_verifica"],
+      "properties": {
+        "programma": { "type": "string" },
+        "fondo": { "type": "string" },
+        "ciclo_QFP": { "type": "string" },
+        "autorita": { "type": "string" },
+        "modalita_gestione": { "enum": ["diretta", "concorrente", "indiretta", "NON_VERIFICATO"] },
+        "fase": { "type": "string" },
+        "call_id": { "type": ["string", "null"] },
+        "topic_id": { "type": ["string", "null"] },
+        "avviso_id": { "type": ["string", "null"] },
+        "titolo": { "type": "string" },
+        "apertura": { "type": ["string", "null"], "format": "date" },
+        "scadenze": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["fase", "data"],
+            "properties": {
+              "fase": { "type": "string" },
+              "data": { "type": "string", "format": "date" },
+              "ora_fuso": { "type": ["string", "null"] },
+              "fonte": { "type": "string" }
+            }
+          }
+        },
+        "ultima_verifica": { "type": "string", "format": "date" },
+        "documenti": {
+          "type": "object",
+          "description": "Versioni dei documenti applicabili al loro ultimo controllo",
+          "additionalProperties": { "type": "string" }
+        }
+      }
+    },
+    "proponente": {
+      "type": "object",
+      "description": "Minimo dati necessari alla candidatura; ridurre al minimo informazioni personali o riservate.",
+      "properties": {
+        "denominazione": { "type": "string" },
+        "natura_giuridica": { "type": ["string", "null"] },
+        "paese": { "type": ["string", "null"] },
+        "dichiarazioni": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/item" }
+        }
+      }
+    },
+    "partenariato": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "denominazione": { "type": "string" },
+          "ruolo_proposto": { "type": "string" },
+          "stato": { "$ref": "#/$defs/stato" },
+          "fonte": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "progetto": {
+      "type": "object",
+      "properties": {
+        "contesto": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "problemi": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "obiettivi_generali": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "obiettivi_specifici": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "attivita": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "output": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "outcome": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "impatti": { "type": "array", "items": { "$ref": "#/$defs/item" } },
+        "indicatori": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/item",
+            "properties": {
+              "unita_misura": { "type": ["string", "null"] },
+              "baseline": { "type": ["string", "null"] },
+              "target": { "type": ["string", "null"] },
+              "periodo": { "type": ["string", "null"] },
+              "metodo_rilevazione": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "rischi": { "type": "array", "items": { "$ref": "#/$defs/item" } }
+      }
+    },
+    "finanza": {
+      "type": "object",
+      "description": "Importi SEMPRE distinti per livello; valuta esplicita; fonte per ogni regola tassi/cofinanziamento.",
+      "properties": {
+        "valuta": { "type": "string" },
+        "budget_programma": { "type": ["number", "null"] },
+        "budget_call": { "type": ["number", "null"] },
+        "budget_topic": { "type": ["number", "null"] },
+        "costi_progetto": { "type": ["number", "null"] },
+        "contributo_richiesto": { "type": ["number", "null"] },
+        "tasso": { "type": ["string", "number", "null"] },
+        "cofinanziamento": { "type": ["string", "null"] },
+        "fonte_regole": { "type": ["string", "null"] },
+        "stato": { "$ref": "#/$defs/stato" }
+      }
+    },
+    "evidenze": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "titolo", "url", "data_consultazione"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^SRC-" },
+          "titolo": { "type": "string" },
+          "url": { "type": "string" },
+          "versione": { "type": ["string", "null"] },
+          "data_consultazione": { "type": "string", "format": "date" },
+          "sezione": { "type": ["string", "null"] },
+          "stato": { "$ref": "#/$defs/stato" }
+        }
+      }
+    },
+    "requisiti": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "testo", "fonte", "stato"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^REQ-" },
+          "testo": { "type": "string" },
+          "fonte": { "type": "string" },
+          "sezione": { "type": ["string", "null"] },
+          "stato": { "$ref": "#/$defs/stato" },
+          "note": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "revisioni": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["data", "descrizione"],
+        "properties": {
+          "data": { "type": "string", "format": "date" },
+          "descrizione": { "type": "string" },
+          "autore": { "type": ["string", "null"] },
+          "motivo": { "enum": ["aggiornamento_fonti", "rettifica_bando", "decisione_utente", "revisione_skill", "altro"] }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "stato": {
+      "enum": ["VERIFICATO", "DA_CONFERMARE", "IPOTESI", "PROPOSTA", "DECISIONE_APPROVATA", "MANCANTE", "NON_APPLICABILE"]
+    },
+    "item": {
+      "type": "object",
+      "required": ["testo", "stato"],
+      "properties": {
+        "testo": { "type": "string" },
+        "stato": { "$ref": "#/$defs/stato" },
+        "fonte": { "type": ["string", "null"] },
+        "verificato_il": { "type": ["string", "null"], "format": "date" },
+        "approvato_da": { "type": ["string", "null"] },
+        "approvato_il": { "type": ["string", "null"], "format": "date" }
+      }
+    }
+  }
+}
