@@ -39,3 +39,7 @@ Il dossier è una **risorsa opzionale**: nessuna skill lo richiede come precondi
 - Non un archivio di dati personali: minimizzare informazioni personali e riservate.
 - Non un servizio, non un database, non un meccanismo automatico: è un file che le skill e l'utente leggono/aggiornano.
 - Non un attestato di validità legale o di correttezza sostanziale: il validatore attesta solo coerenza formale e tracciabilità interna.
+
+## Importazione da Business Funding Skills
+
+Un dossier `business-funding-skills/dossier@v1` può essere convertito tramite `core/export_eu_dossier.py` del repository Business Funding Skills solo per opportunità GRANT con programma UE esplicitamente identificato. Prestiti, equity, incubazione e schemi ibridi restano esclusi. Il risultato è un **nuovo dossier di scambio** e non sostituisce il Business originale; deve essere validato localmente con `python3 dossier/check_dossier.py <file.json>`. La conversione non attesta veridicità delle fonti né compatibilità del regime di aiuto.
