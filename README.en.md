@@ -19,6 +19,8 @@ This repository is an independent collection of skills for navigating European U
 
 10. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — reconstructs, in read-only mode, events after submission, authority communications, outcomes, possible requests and deadlines; separates verified updates, gaps and proposed actions, with no recurring monitoring and no changes to portals.
 
+11. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — *(placed between skills 06 and 07; existing numbering unchanged)* supports the substantive design of the project: context and needs, objectives, intervention logic, activities, results, impacts and verifiable indicators, with distinct states and [method sources](eu-funding-project-designer/references/design-method.md); delivers a dossier compatible with the [shared dossier](dossier/README.md) for drafting (skill 07), without filling the official form or inventing data.
+
 ## Operating sequence
 
 **Hierarchy → Programme → Call/topic → Preliminary eligibility → Economic-financial analysis → Application plan → Proposal draft → Documentary review → Submission pre-check → Tracking of post-submission events.** Each skill can also run standalone when the programme and topic are already known.
@@ -119,6 +121,6 @@ The CI attests **only structure, metadata, local consistency and the arithmetic 
 
 ## Versions
 
-- Skills 00–10: each v0.1 (operational draft, testable).
+- Skills 00–11: each v0.1 (operational draft, testable).
 - Cumulative package: **v0.11**, 10 November 2026.
 - v0.11 adds the `.claude/skills/install` skill (`/install`, `@install`), the HTTP catalog `index.json` to install the skills in OpenCode from a URL, and installation instructions for Claude Code, OpenCode and other Agent Skills clients. If you modify a skill's files, regenerate `index.json` with the new version.
