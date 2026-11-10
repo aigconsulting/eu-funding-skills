@@ -1,0 +1,131 @@
+{
+  "skills": [
+    {
+      "name": "eu-funding-application-planner",
+      "version": "8baced5cc6d6",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/source-protocol.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-call-finder",
+      "version": "09c78bb77fa6",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-eligibility-checker",
+      "version": "b9764177d056",
+      "files": [
+        "SKILL.md",
+        "references/decision-model.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-financial-checker",
+      "version": "d48c4deeead1",
+      "files": [
+        "SKILL.md",
+        "references/calculation-model.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py",
+        "scripts/estimate_grant.py",
+        "scripts/test_calculations.py"
+      ]
+    },
+    {
+      "name": "eu-funding-hierarchy",
+      "version": "96870f1cf6db",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/taxonomy.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-post-submission-tracker",
+      "version": "edef5e2b3443",
+      "files": [
+        "SKILL.md",
+        "references/evidence-protocol.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py",
+        "scripts/test_validator.py",
+        "scripts/validate_tracker.py"
+      ]
+    },
+    {
+      "name": "eu-funding-programme-finder",
+      "version": "046e903889b8",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/programme-map.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-proposal-drafter",
+      "version": "67e681abb058",
+      "files": [
+        "SKILL.md",
+        "references/evidence-protocol.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py",
+        "scripts/test_validator.py",
+        "scripts/validate_draft.py"
+      ]
+    },
+    {
+      "name": "eu-funding-proposal-reviewer",
+      "version": "e155011e9844",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/review-protocol.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py",
+        "scripts/test_validator.py",
+        "scripts/validate_review.py"
+      ]
+    },
+    {
+      "name": "eu-funding-submission-checker",
+      "version": "9040207f011b",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/precheck-protocol.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py",
+        "scripts/test_validator.py",
+        "scripts/validate_precheck.py"
+      ]
+    }
+  ]
+}

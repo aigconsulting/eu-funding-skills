@@ -24,16 +24,34 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md`, `references/` e `scripts/`, quindi lo stesso pacchetto funziona con Claude Code, OpenCode e gli altri client compatibili. Installare significa rendere disponibili le cartelle `eu-funding-*` nella directory di skill del client.
 
-### Installazione da Claude Code o OpenCode
+### Installazione da GitHub, senza clonare
 
-Apri questo repository nell'agente e invoca la skill di installazione:
+Claude Code e OpenCode non installano una skill da un link: si scarica il pacchetto e lo si copia nella directory di skill. Un solo comando, da qualsiasi terminale:
 
-- **Claude Code:** `/install`
-- **OpenCode:** `@install`
+```bash
+TMP="$(mktemp -d)" && curl -fsSL https://github.com/aigconsulting/eu-funding-skills/archive/refs/heads/main.tar.gz | tar -xz -C "$TMP" --strip-components=1 && mkdir -p ~/.claude/skills && cp -R "$TMP"/eu-funding-* ~/.claude/skills/ && rm -rf "$TMP"
+```
 
-La skill `.claude/skills/install/SKILL.md` chiede la destinazione, copia o collega le dieci cartelle `eu-funding-*`, esegue i controlli statici e riporta come invocare le skill. Per rimuoverle basta chiederlo alla stessa skill: elimina solo le cartelle `eu-funding-*`.
+Sostituisci `~/.claude/skills` con `.claude/skills` (progetto), `~/.config/opencode/skills` o `.opencode/skills`. In alternativa incolla il link all'agente e chiedi di installare le skill da `https://github.com/aigconsulting/eu-funding-skills`: scarica l'archivio e copia le cartelle.
 
-### Installazione manuale
+### OpenCode: skill direttamente da URL
+
+OpenCode legge un catalogo HTTP, quindi non serve copiare nulla. Aggiungi in `opencode.json` (globale o di progetto):
+
+```jsonc
+{
+  "$schema": "https://opencode.ai/config.json",
+  "skills": ["https://raw.githubusercontent.com/aigconsulting/eu-funding-skills/main"]
+}
+```
+
+`index.json` elenca file e versione di ogni skill; OpenCode scarica il contenuto in cache e lo rinnova quando la versione cambia (`/reload` per applicare).
+
+### Nel repository: `/install`
+
+Apri questa cartella in Claude Code o OpenCode e invoca `/install` (`@install` in OpenCode): la skill `.claude/skills/install/SKILL.md` chiede la destinazione, copia o collega le cartelle, esegue i controlli statici e riporta come invocare le skill. Per rimuoverle basta chiederlo alla stessa skill: elimina solo le cartelle `eu-funding-*`.
+
+### Installazione manuale da una copia locale
 
 ```bash
 DEST="$HOME/.claude/skills"     # oppure .claude/skills, ~/.config/opencode/skills, .opencode/skills, ~/.agents/skills
@@ -88,4 +106,4 @@ I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza loc
 
 - Skill 01–10: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
-- v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`) che installa le dieci skill in Claude Code, OpenCode e gli altri client compatibili con Agent Skills.
+- v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
