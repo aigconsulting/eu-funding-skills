@@ -99,6 +99,18 @@
       ]
     },
     {
+      "name": "eu-funding-project-designer",
+      "version": "aeaec8e1e409",
+      "files": [
+        "SKILL.md",
+        "references/design-method.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-proposal-drafter",
       "version": "0a0ac1f29ca4",
       "files": [
