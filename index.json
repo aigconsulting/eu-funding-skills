@@ -88,12 +88,13 @@
     },
     {
       "name": "eu-funding-proposal-drafter",
-      "version": "67e681abb058",
+      "version": "0a0ac1f29ca4",
       "files": [
         "SKILL.md",
         "references/evidence-protocol.md",
         "references/official-sources.md",
         "references/output-template.md",
+        "references/programme-cycles.md",
         "references/test-cases.md",
         "scripts/check_skill.py",
         "scripts/test_validator.py",
