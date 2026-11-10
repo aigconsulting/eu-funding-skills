@@ -6,7 +6,9 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 <img width="1752" height="897" alt="image" src="https://github.com/user-attachments/assets/ffcb7967-5168-426f-8d97-2066b5f69a03" />
 
-## Ciclo completo dei finanziamenti europei
+> **Nota lingua:** le skill sono scritte in italiano, ma la lingua di una `SKILL.md` **non vincola** quella della risposta per risultati affidabili l'agente deve rispettare la lingua richiesta dall'utente, mantenendo in forma originale citazioni, denominazioni ufficiali, identificativi e condizioni dei bandi. I modelli multilingue in genere comprendono istruzioni in italiano e in inglese, ma riconoscimento e interpretazione possono dipendere da modello, client, terminologia e richiesta: la traduzione integrale delle skill resta un'opzione valutata separatamente, non una funzione implementata.
+
+## Skill disponibili
 
 ![Diagramma del ciclo EU Funding Skills: 17 skill distribuite in cinque macrofasi, dall'orientamento istituzionale alla chiusura del finanziamento](assets/eu-funding-lifecycle.svg)
 
@@ -21,13 +23,6 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 | **5. Esecuzione e chiusura** | Project management → reporting → closure | Evidenze di avanzamento, rendicontazione e obblighi residui |
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
-
-
-
-
-> **Nota lingua:** le skill sono scritte in italiano, ma la lingua di una `SKILL.md` **non vincola** quella della risposta per risultati affidabili l'agente deve rispettare la lingua richiesta dall'utente, mantenendo in forma originale citazioni, denominazioni ufficiali, identificativi e condizioni dei bandi. I modelli multilingue in genere comprendono istruzioni in italiano e in inglese, ma riconoscimento e interpretazione possono dipendere da modello, client, terminologia e richiesta: la traduzione integrale delle skill resta un'opzione valutata separatamente, non una funzione implementata.
-
-## Skill disponibili
 
 0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — spiega e ricostruisce il quadro istituzionale dell'UE: istituzioni, organi consultivi, articolazione della Commissione, DG e agenzie, processi decisionali e di bilancio, con [mappa statica](eu-institutional-framework/references/institutional-map.md) e ricerca dinamica d'istituzionale su fonti primarie; non cerca bandi né valuta ammissibilità.
 1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — ricostruisce gerarchia e nessi documentati fra priorità, QFP, programma, work programme, call e topic, tenendo conto delle modalità di gestione.
