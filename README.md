@@ -24,22 +24,25 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
 
-0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — spiega e ricostruisce il quadro istituzionale dell'UE: istituzioni, organi consultivi, articolazione della Commissione, DG e agenzie, processi decisionali e di bilancio, con [mappa statica](eu-institutional-framework/references/institutional-map.md) e ricerca dinamica d'istituzionale su fonti primarie; non cerca bandi né valuta ammissibilità.
-1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — ricostruisce gerarchia e nessi documentati fra priorità, QFP, programma, work programme, call e topic, tenendo conto delle modalità di gestione.
-2. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — parte da un obiettivo e individua programmi, fondi e strumenti UE plausibili, distinguendo finalità, modalità e canali ufficiali.
-3. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — cerca e verifica topic, call e avvisi specifici, con stato, fasi, scadenze, condizioni e link primari; rileva su richiesta rettifiche, proroghe e aggiornamenti ufficiali della fonte ([protocollo](eu-funding-call-finder/references/change-log-protocol.md)), senza monitoraggio ricorrente automatico.
-4. [`eu-funding-eligibility-checker`](eu-funding-eligibility-checker/SKILL.md) — verifica preliminarmente requisiti di richiedente, finanziabilità, partenariato, progetto e presentazione, distinguendo blocchi accertati, condizioni e lacune documentali. Non emette certificazioni di ammissibilità.
-5. [`eu-funding-financial-checker`](eu-funding-financial-checker/SKILL.md) — distingue budget di programma/call/topic/progetto, grant, costi ammissibili, tassi, massimali, cofinanziamento e flussi di cassa; comprende una simulazione aritmetica controllabile, senza attribuire finanziamenti.
-6. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — ricostruisce per ogni specifico avviso/fase la documentazione richiesta, i criteri, le scadenze e la preparazione della candidatura, senza applicare schemi di altri programmi né presentare domande.
-7. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — redige la bozza secondo il formulario realmente applicabile, tracciando requisiti, fonti ed evidenze, con segnaposto per i dati mancanti e un validatore formale del manifest; identifica ciclo QFP, programma e modulistica specifica ([cicli QFP e programmi](eu-funding-proposal-drafter/references/programme-cycles.md)), senza importare strutture fra programmi.
-8. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — confronta una versione identificata della proposta con i criteri e le condizioni della specifica opportunità, separando rilievi accertati, rischi, lacune informative e suggerimenti redazionali; aggiunge l'[analisi qualitativa argomentata](eu-funding-proposal-reviewer/references/qualitative-review.md) su obiettivi, metodologia, risultati e impatti, con tipologia dei rilievi e valutatore critico solo simulato ed etichettato. Integra un validatore formale del rapporto; non certifica la proposta.
-9. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — esegue pre-check documentali su versione finale, allegati, canale, scadenze e condizioni della specifica opportunità; distingue blocchi, lacune e controlli soddisfatti senza presentare domande.
+**Elenco completo delle 17 skill, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
 
-10. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — ricostruisce in sola lettura eventi successivi alla presentazione, comunicazioni dell’autorità, esiti, eventuali richieste e scadenze; distingue aggiornamenti verificati, lacune e azioni proposte, senza monitoraggio ricorrente o modifiche ai portali.
-
-11. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — *(collocata tra le skill 06 e 07, numerazione esistente invariata)* supporta la progettazione sostanziale del progetto: contesto e bisogni, obiettivi, logica d'intervento, attività, risultati, impatti e indicatori verificabili, con stati distinti e [fonti di metodo](eu-funding-project-designer/references/design-method.md); consegna un dossier compatibile col [dossier condiviso](dossier/README.md) per la redazione (skill 07), senza compilare il formulario né inventare dati.
-
-12. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — *(numerazione esistente invariata)* definisce il partenariato della specifica candidatura: requisiti del bando da fonti ufficiali (consorzio obbligatorio vs candidatura individuale), mappa delle competenze necessarie/disponibili, [ricerca documentata di soggetti](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) con valutazione comparativa; **nessun contatto e nessun accordo inventato**, composizione sempre etichettata come proposta.
+1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — Quadro istituzionale UE: istituzioni, DG, agenzie e processi decisionali.
+2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — Gerarchia dei fondi: priorità, QFP, programmi, work programme, call e topic.
+3. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — Ricerca dei programmi europei pertinenti agli obiettivi del progetto.
+4. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — Ricerca e verifica di call e topic, documenti ufficiali, scadenze e rettifiche.
+5. [`eu-funding-eligibility-checker`](eu-funding-eligibility-checker/SKILL.md) — Verifica preliminare dei requisiti del beneficiario, del partenariato e del progetto.
+6. [`eu-funding-financial-checker`](eu-funding-financial-checker/SKILL.md) — Analisi di budget, costi ammissibili, tassi di finanziamento e cofinanziamento.
+7. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — Progettazione dell'intervento: contesto, obiettivi, attività, risultati e indicatori.
+8. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — Costruzione del partenariato e verifica dei ruoli richiesti dalla call.
+9. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — Pianificazione della candidatura e documentazione necessaria.
+10. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — Redazione della proposta secondo il formulario effettivamente applicabile.
+11. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — Revisione critica della proposta rispetto ai requisiti e ai criteri di valutazione.
+12. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — Controllo documentale pre-invio di file, allegati, formati e scadenze.
+13. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — Tracciamento degli esiti, delle comunicazioni e delle richieste post-invio.
+14. [`eu-funding-grant-agreement-manager`](eu-funding-grant-agreement-manager/SKILL.md) — Analisi del Grant Agreement, delle condizioni e degli obblighi contrattuali.
+15. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Gestione documentale di work package, attività, deliverable e milestone.
+16. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
+17. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
 
 ## Ordine operativo
 
@@ -145,18 +148,9 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
 - v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
 
-## Ciclo post-concessione — skill 13–16
+## Ciclo post-concessione
 
-Le skill aggiuntive si applicano **solo dopo la selezione**, quando documenti ufficiali della specifica azione rendono verificabile una fase successiva. Non presumono che una proposta finanziata coincida con un Grant Agreement firmato.
-
-| Skill | Ambito |
-| --- | --- |
-| [eu-funding-grant-agreement-manager](eu-funding-grant-agreement-manager/SKILL.md) | Preparazione e lettura della convenzione, condizioni e obblighi |
-| [eu-funding-project-manager](eu-funding-project-manager/SKILL.md) | Work package, milestone, deliverable e rischi rispetto alla baseline contrattuale |
-| [eu-funding-reporting-manager](eu-funding-reporting-manager/SKILL.md) | Reporting tecnico-finanziario, costi, evidenze e obblighi di rendicontazione |
-| [eu-funding-closure-manager](eu-funding-closure-manager/SKILL.md) | Saldo, chiusura documentale e obblighi successivi |
-
-Il percorso esteso è: **istituzioni → gerarchia → programma → call → ammissibilità → finanza → progettazione/partnership → candidatura → review → controlli pre-invio → esiti → convenzione → esecuzione → reporting → chiusura**. Nessuna skill presenta report, firma accordi o certifica costi. Queste quattro skill sono guide documentali iniziali e non sono state validate end-to-end con agenti.
+Le fasi 14–17 dell'elenco principale si applicano dopo gli eventi documentati di selezione, sottoscrizione ed efficacia della convenzione. Le skill relative a Grant Agreement, gestione del progetto, reporting e chiusura sono guide documentali e non sostituiscono i controlli dell'autorità finanziatrice. Non presumono che la selezione equivalga a una convenzione firmata o a un pagamento ricevuto.
 
 ### Interoperabilità con Business Funding Skills
 
