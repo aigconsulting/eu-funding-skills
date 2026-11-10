@@ -1,6 +1,18 @@
 {
   "skills": [
     {
+      "name": "eu-institutional-framework",
+      "version": "23187a889924",
+      "files": [
+        "SKILL.md",
+        "references/institutional-map.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-application-planner",
       "version": "8baced5cc6d6",
       "files": [

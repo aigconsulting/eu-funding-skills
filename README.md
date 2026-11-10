@@ -11,6 +11,7 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 ## Skill disponibili
 
+0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — **Skill 00** (propedeutica) — spiega e ricostruisce il quadro istituzionale dell'UE: istituzioni, organi consultivi, articolazione della Commissione, DG e agenzie, processi decisionali e di bilancio, con [mappa statica](eu-institutional-framework/references/institutional-map.md) e ricerca dinamica d'istituzionale su fonti primarie; non cerca bandi né valuta ammissibilità.
 1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — ricostruisce gerarchia e nessi documentati fra priorità, QFP, programma, work programme, call e topic, tenendo conto delle modalità di gestione.
 2. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — parte da un obiettivo e individua programmi, fondi e strumenti UE plausibili, distinguendo finalità, modalità e canali ufficiali.
 3. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — cerca e verifica topic, call e avvisi specifici, con stato, fasi, scadenze, condizioni e link primari; rileva su richiesta rettifiche, proroghe e aggiornamenti ufficiali della fonte ([protocollo](eu-funding-call-finder/references/change-log-protocol.md)), senza monitoraggio ricorrente automatico.
@@ -36,7 +37,7 @@ Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md`
 Claude Code e OpenCode non installano una skill da un link: si scarica il pacchetto e lo si copia nella directory di skill. Un solo comando, da qualsiasi terminale:
 
 ```bash
-TMP="$(mktemp -d)" && curl -fsSL https://github.com/aigconsulting/eu-funding-skills/archive/refs/heads/main.tar.gz | tar -xz -C "$TMP" --strip-components=1 && mkdir -p ~/.claude/skills && cp -R "$TMP"/eu-funding-* ~/.claude/skills/ && rm -rf "$TMP"
+TMP="$(mktemp -d)" && curl -fsSL https://github.com/aigconsulting/eu-funding-skills/archive/refs/heads/main.tar.gz | tar -xz -C "$TMP" --strip-components=1 && mkdir -p ~/.claude/skills && cp -R "$TMP"/eu-* ~/.claude/skills/ && rm -rf "$TMP"
 ```
 
 Sostituisci `~/.claude/skills` con `.claude/skills` (progetto), `~/.config/opencode/skills` o `.opencode/skills`. In alternativa incolla il link all'agente e chiedi di installare le skill da `https://github.com/aigconsulting/eu-funding-skills`: scarica l'archivio e copia le cartelle.
@@ -63,7 +64,7 @@ Apri questa cartella in Claude Code o OpenCode e invoca `/install` (`@install` i
 ```bash
 DEST="$HOME/.claude/skills"     # oppure .claude/skills, ~/.config/opencode/skills, .opencode/skills, ~/.agents/skills
 mkdir -p "$DEST"
-for d in eu-funding-*/; do cp -R "$d" "$DEST/${d%/}"; done
+for d in eu-*/; do cp -R "$d" "$DEST/${d%/}"; done
 ```
 
 Sostituendo `cp -R` con `ln -sfn "$PWD/${d%/}" "$DEST/${d%/}"` le skill restano collegate al repository e ne seguono gli aggiornamenti.
@@ -123,6 +124,6 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 
 ## Versioni
 
-- Skill 01–10: ciascuna v0.1 (bozza operativa testabile).
+- Skill 00–10: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
 - v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
