@@ -102,6 +102,14 @@ python3 eu-funding-post-submission-tracker/scripts/test_validator.py
 
 I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza locale**, non capacità agentiche o conformità giuridica. La Skill 05 aggiunge 10 test unitari aritmetici del calcolatore; la Skill 07 aggiunge 16 test unitari del validatore formale, la Skill 08 ne aggiunge 25 per il rapporto di revisione e la Skill 09 ne aggiunge 49 per il pre-check e la Skill 10 ne aggiunge 56 per il tracciamento post-invio. Nessuno è una verifica di conformità normativa. Le fonti devono essere verificate all'atto dell'uso; i casi nei file `references/test-cases.md` non sono test agentici eseguiti. Nessuna skill presenta domande di finanziamento, risponde a richieste delle autorità, effettua registrazioni o controlli ricorrenti autonomi. Il pre-check della Skill 09 non certifica ammissibilità e non è una ricevuta di invio.
 
+## CI
+
+Il workflow `.github/workflows/ci.yml` esegue, a ogni pull request e push su `main`, gli stessi comandi documentati sopra: controlli statici `check_skill.py`, test unitari `test_*.py` e congruenza del catalogo `index.json` tramite `scripts/check_index.py` (esistenza dei file elencati, assenza di file non catalogati, formato della versione; vedi l'intestazione dello script per la ricetta delle versioni). Nessuna credenziale, nessun accesso a portali di finanziamento, nessuna chiamata a modelli: meno di due minuti su un runner `ubuntu-latest` a esecuzione (~5–10 minuti/mese su docina di PR), senza schedulazioni ricorrenti.
+
+### Cosa NON prova la CI
+
+La CI attesta **solo struttura, metadati, coerenza locale e validità aritmetica dei validatori deterministici**. **Non** prova: l'esattezza delle regole dei bandi, l'accessibilità delle fonti al momento dell'uso, la correttezza sostanziale delle proposte, la conformità giuridica delle uscite o il comportamento reale degli agenti. Le prove end-to-end con agente sono tracciate in issue specifiche (vedi la issue di validazione end-to-end del repository).
+
 ## Versioni
 
 - Skill 01–10: ciascuna v0.1 (bozza operativa testabile).

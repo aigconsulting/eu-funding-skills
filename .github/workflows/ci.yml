@@ -1,0 +1,52 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  static-checks:
+    name: Controlli statici e unit test
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # Python è già presente nell'immagine runner (3.x): nessuna installazione extra
+      # e nessuna dipendenza di terze parti serve ai controlli del pacchetto.
+
+      - name: Controlli statici delle skill (check_skill.py)
+        run: |
+          set -euo pipefail
+          for script in eu-funding-*/scripts/check_skill.py; do
+            echo "::group::$script"
+            python3 "$script"
+            echo "::endgroup::"
+          done
+
+      - name: Unit test dei validatori e del calcolatore (test_*.py)
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for script in eu-funding-*/scripts/test_*.py; do
+            echo "::group::$script"
+            python3 "$script"
+            echo "::endgroup::"
+          done
+        shell: bash
+
+      - name: Congruenza del catalogo di distribuzione (index.json)
+        run: python3 scripts/check_index.py
+
+      - name: Riepilogo
+        if: always()
+        run: echo "Controlli statici completati per ${{ github.sha }}"
