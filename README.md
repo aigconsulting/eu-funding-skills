@@ -1,6 +1,10 @@
 # EU Funding Skills
 
+**Lingua / Language:** [Italiano](README.md) · [English](README.en.md)
+
 Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea, dalla struttura istituzionale fino alla preparazione della proposta e al tracciamento documentale successivo alla presentazione, nel rispetto della disciplina dello specifico avviso. Contenuti generali, senza riferimenti a specifici progetti aziendali.
+
+> **Nota lingua:** le skill sono scritte in italiano, ma la lingua di una `SKILL.md` **non vincola** quella della risposta per risultati affidabili l'agente deve rispettare la lingua richiesta dall'utente, mantenendo in forma originale citazioni, denominazioni ufficiali, identificativi e condizioni dei bandi. I modelli multilingue in genere comprendono istruzioni in italiano e in inglese, ma riconoscimento e interpretazione possono dipendere da modello, client, terminologia e richiesta: la traduzione integrale delle skill resta un'opzione valutata separatamente, non una funzione implementata.
 
 ## Skill disponibili
 
