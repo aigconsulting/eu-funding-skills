@@ -4,6 +4,8 @@
 
 Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea, dalla struttura istituzionale alla ricerca dei finanziamenti, dalla progettazione e candidatura fino alla gestione documentale del Grant Agreement, dell'attuazione, della rendicontazione e della chiusura, nel rispetto della disciplina dello specifico avviso. Contenuti generali, senza riferimenti a specifici progetti aziendali.
 
+<img width="1752" height="897" alt="image" src="https://github.com/user-attachments/assets/ffcb7967-5168-426f-8d97-2066b5f69a03" />
+
 ## Ciclo completo dei finanziamenti europei
 
 ![Diagramma del ciclo EU Funding Skills: 17 skill distribuite in cinque macrofasi, dall'orientamento istituzionale alla chiusura del finanziamento](assets/eu-funding-lifecycle.svg)
