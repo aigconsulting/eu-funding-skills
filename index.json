@@ -1,6 +1,18 @@
 {
   "skills": [
     {
+      "name": "eu-funding-partnership-designer",
+      "version": "05466ed82dfe",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/partnership-map.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-institutional-framework",
       "version": "23187a889924",
       "files": [

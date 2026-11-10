@@ -25,6 +25,8 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 11. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — *(collocata tra le skill 06 e 07, numerazione esistente invariata)* supporta la progettazione sostanziale del progetto: contesto e bisogni, obiettivi, logica d'intervento, attività, risultati, impatti e indicatori verificabili, con stati distinti e [fonti di metodo](eu-funding-project-designer/references/design-method.md); consegna un dossier compatibile col [dossier condiviso](dossier/README.md) per la redazione (skill 07), senza compilare il formulario né inventare dati.
 
+12. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — *(numerazione esistente invariata)* definisce il partenariato della specifica candidatura: requisiti del bando da fonti ufficiali (consorzio obbligatorio vs candidatura individuale), mappa delle competenze necessarie/disponibili, [ricerca documentata di soggetti](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) con valutazione comparativa; **nessun contatto e nessun accordo inventato**, composizione sempre etichettata come proposta.
+
 ## Ordine operativo
 
 **Gerarchia → Programma → Call/topic → Ammissibilità preliminare → Analisi economico-finanziaria → Piano di candidatura → Bozza della proposta → Review documentale → Pre-check di presentazione → Tracciamento degli eventi post-invio.** È possibile eseguire le singole skill autonomamente quando si conoscono già programma e topic.
@@ -125,6 +127,6 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 
 ## Versioni
 
-- Skill 00–11: ciascuna v0.1 (bozza operativa testabile).
+- Skill 00–12: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
 - v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
