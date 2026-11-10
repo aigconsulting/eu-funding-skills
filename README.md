@@ -11,7 +11,7 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 ## Skill disponibili
 
-0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — **Skill 00** (propedeutica) — spiega e ricostruisce il quadro istituzionale dell'UE: istituzioni, organi consultivi, articolazione della Commissione, DG e agenzie, processi decisionali e di bilancio, con [mappa statica](eu-institutional-framework/references/institutional-map.md) e ricerca dinamica d'istituzionale su fonti primarie; non cerca bandi né valuta ammissibilità.
+0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — spiega e ricostruisce il quadro istituzionale dell'UE: istituzioni, organi consultivi, articolazione della Commissione, DG e agenzie, processi decisionali e di bilancio, con [mappa statica](eu-institutional-framework/references/institutional-map.md) e ricerca dinamica d'istituzionale su fonti primarie; non cerca bandi né valuta ammissibilità.
 1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — ricostruisce gerarchia e nessi documentati fra priorità, QFP, programma, work programme, call e topic, tenendo conto delle modalità di gestione.
 2. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — parte da un obiettivo e individua programmi, fondi e strumenti UE plausibili, distinguendo finalità, modalità e canali ufficiali.
 3. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — cerca e verifica topic, call e avvisi specifici, con stato, fasi, scadenze, condizioni e link primari; rileva su richiesta rettifiche, proroghe e aggiornamenti ufficiali della fonte ([protocollo](eu-funding-call-finder/references/change-log-protocol.md)), senza monitoraggio ricorrente automatico.
