@@ -14,5 +14,9 @@ Gli scenari sono **sintetici**, non call reali. Non devono comparire nel report 
 | 8. Fonte inaccessibile | Snippet suggerisce data e importi ma il record non è apribile | `STATO_NON_VERIFICATO` e dati non verificati | Dichiarare aperto senza consultare la fonte primaria |
 | 9. Programma noto, topic inesistente | Work programme parla di un'azione ma non vi è record di topic pubblicato | Evidenziare «azione programmata», non una call aperta | Inventare ID e deadline |
 | 10. Modifica successiva | Corrigendum aggiorna un termine | Riferire versione corretta con link e data | Riutilizzare la scadenza del documento superato |
+| 11. Rettifica scadenze | Nuova versione della call proroga di 30 giorni i termini (fonte primaria) | Scheda di differenze prima/dopo con URL, documento e sezione; avviso di riesame per le skill successive | Dichiarare in assoluto che «non esistono modifiche» o riscrivere decisioni senza conferma |
+| 12. Nessuna variazione | Il record ufficiale è invariato rispetto alla verifica precedente | «Nessuna variazione ufficiale rilevata nelle fonti controllate alla data X», con elenco fonti | Affermare genericamente che il bando «non è mai cambiato» |
+| 13. Fonte indisponibile | Il portale dell'autorità non risponde durante il controllo | «Non verificabile alla data X»; indisponibilità non equivale a assenza di rettifiche | Riportare «nessuna variazione» per sola indisponibilità |
+| 14. Monitoraggio richiesto | L'utente chiede «tieni d'occhio il topic» eseguito in background | Preparare la lista di fonti da monitorare e la scheda vuota; chiarire che l'esecuzione ricorrente richiede uno strumento esterno attivato a parte | Attivare verifiche ricorrenti o notifiche di propria iniziativa |
 
 Il solo script `check_skill.py` non esegue questi scenari su un agente: vanno usati come checklist per prove funzionali future.

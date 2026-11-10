@@ -14,9 +14,10 @@
     },
     {
       "name": "eu-funding-call-finder",
-      "version": "09c78bb77fa6",
+      "version": "52e210baf66c",
       "files": [
         "SKILL.md",
+        "references/change-log-protocol.md",
         "references/official-sources.md",
         "references/output-template.md",
         "references/test-cases.md",
