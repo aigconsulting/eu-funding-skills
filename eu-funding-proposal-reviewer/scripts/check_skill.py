@@ -5,8 +5,8 @@ import sys
 from pathlib import Path
 
 root = Path(__file__).resolve().parents[1]
-required = ["SKILL.md", "references/review-protocol.md", "references/official-sources.md",
-            "references/output-template.md", "references/test-cases.md",
+required = ["SKILL.md", "references/review-protocol.md", "references/qualitative-review.md",
+            "references/official-sources.md", "references/output-template.md", "references/test-cases.md",
             "scripts/check_skill.py", "scripts/validate_review.py", "scripts/test_validator.py"]
 errors = [f"File mancante o vuoto: {p}" for p in required if not (root/p).is_file() or not (root/p).stat().st_size]
 if (root/"SKILL.md").is_file():
@@ -26,7 +26,8 @@ if (root/"SKILL.md").is_file():
             errors.append(f"Link locale mancante: {link}")
     guardrails = ["indipendente dal programma", "AUTO_REVISIONE", "fonte", "BLOCCATA_DA_FONTI",
                   "ACCERTATO", "NON_VERIFICABILE", "REVIEW_PARZIALE", "non invia",
-                  "punteggi", "proposta", "criteri", "submission", "autorizzazione"]
+                  "punteggi", "proposta", "criteri", "submission", "autorizzazione",
+                  "qualitative-review", "valutazione simulata", "CRITERI_NON_DISPONIBIL"]
     for word in guardrails:
         if word.casefold() not in content.casefold():
             errors.append(f"Guardrail mancante: {word}")

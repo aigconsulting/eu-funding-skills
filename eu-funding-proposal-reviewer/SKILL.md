@@ -1,6 +1,6 @@
 ---
 name: eu-funding-proposal-reviewer
-description: Esegue una revisione critica e tracciabile di una proposta di finanziamento UE contro la specifica documentazione ufficiale applicabile, senza importare criteri da altri programmi, attribuire punteggi ufficiali o presentare domande.
+description: Esegue una revisione critica e tracciabile di una proposta di finanziamento UE contro la specifica documentazione ufficiale applicabile, con rilievi formali e analisi qualitativa argomentata su obiettivi, metodologia, risultati e impatti (valutatore critico simulato solo etichettato come tale), senza importare criteri da altri programmi, attribuire punteggi ufficiali o presentare domande.
 ---
 
 # EU Funding Proposal Reviewer — Skill 08
@@ -48,19 +48,21 @@ Creare un registro `REQ-*` con testo sintetico, fonte `SRC-*`, sezione/pagina, c
 ### 3 — Verificare la proposta su due assi
 
 - **Conformità tracciabile**: elementi obbligatori e condizionali, sezioni richieste, limiti documentati, allegati, condizioni procedurali, eleggibilità dei partecipanti e budget secondo dati effettivamente disponibili.
-- **Qualità rispetto ai criteri pubblicati**: pertinenza, logica interna, chiarezza della dimostrazione, credibilità di obiettivi e risultati, sostenibilità e coerenza, nella misura pertinente. Cercare omissioni, affermazioni prive di evidenza, contraddizioni e punti non verificati; non inventare elementi per "migliorare" la narrativa.
+- **Qualità rispetto ai criteri pubblicati**: pertinenza, logica interna, chiarezza della dimostrazione, credibilità di obiettivi e risultati, sostenibilità e coerenza, nella misura pertinente. Seguire [references/qualitative-review.md](references/qualitative-review.md) per gli assi qualitativi (obiettivi, contesto e bisogni, metodologia, catena attività → output → outcome → impatti, indicatori e mezzi di verifica, rischi e sostenibilità, coerenza interna), applicati **solo dove pertinenti** al tipo di opportunità. Cercare omissioni, affermazioni prive di evidenza, contraddizioni e punti non verificati; non inventare elementi per "migliorare" la narrativa. Se i criteri ufficiali non sono disponibili, registrare `CRITERI_NON_DISPONIBILI` e non fare quality review su criteri presunti.
 
 Per ogni controllo annotare `REQ → punto proposta/evidenza → esito`, anche quando non risultano rilievi. Per sezioni non presenti ma non obbligatorie, non generare false carenze.
 
 ### 4 — Redigere rilievi distinti da suggerimenti
 
-Per ciascun `FND-*`: classe di rilievo, gravità interna, stato di evidenza, descrizione puntuale, fonte e localizzatore, requisito (se normativo), riferimento a sezione/passaggio della proposta, rischio concreto e **correzione proposta**. Se il documento non è stato letto integralmente, non usare “assente nella proposta”: indicare “non trovato nelle parti esaminate”. Per una lacuna accertata, indicare l'ambito della ricerca eseguita.
+Per ciascun `FND-*`: classe di rilievo, gravità interna, stato di evidenza, descrizione puntuale, fonte e localizzatore, requisito (se normativo), riferimento a sezione/passaggio della proposta, rischio concreto e **correzione proposta**. Ogni rilievo qualitativo `QLM-*` segue la struttura a cinque campi (sezione/estratto, criterio applicabile, evidenza, impatto potenziale, suggerimento) ed è classificato in una delle tipologie del [protocollo qualitativo](references/qualitative-review.md): `NON_CONFORMITA_ACCERTATA`, `DEBOLEZZA_ARGOMENTATIVA`, `RISCHIO_O_IPOTESI`, `MANCANZA_DI_DATI`, `OSSERVAZIONE_REDAZIONALE`, `DECISIONE_RISERVATA_AL_PROPONENTE`. Se il documento non è stato letto integralmente, non usare “assente nella proposta”: indicare “non trovato nelle parti esaminate”. Per una lacuna accertata, indicare l'ambito della ricerca eseguita.
 
 **Senza rilievi documentati** significa soltanto che, nel perimetro verificato, non ne sono stati identificati: non usare "conforme", "finanziabile" o "pronta alla presentazione" come certificazioni.
 
 ### 5 — Valutare limiti, incertezze e riepilogo
 
 Riepilogare `RILIEVI_ACCERTATI`, `RISCHI_DA_VERIFICARE`, `SUGGERIMENTI_REDAZIONALI`, `DOCUMENTI_MANCANTI`, `CONFLITTI_FONTI`. Raggruppare per impatto sul lavoro di revisione senza numeri/score attribuiti all'autorità. Se mancano i criteri pubblicati, non fare quality review su criteri presunti.
+
+Su richiesta esplicita, la skill può aggiungere una **prospettiva di valutatore critico simulato** (guarda [qualitative-review.md](references/qualitative-review.md)): sempre etichettata «valutazione simulata», senza punteggi su scale ufficiali, previsioni di esito, probabilità di finanziamento o attribuzioni a valutatori reali. Non può mai sostituirsi a una valutazione dell'autorità.
 
 ### 6 — Controllo formale facoltativo e consegna
 
