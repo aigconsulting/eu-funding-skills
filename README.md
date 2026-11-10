@@ -130,3 +130,20 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 - Skill 00–12: ciascuna v0.1 (bozza operativa testabile).
 - Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
 - v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
+
+## Ciclo post-concessione — skill 13–16
+
+Le skill aggiuntive si applicano **solo dopo la selezione**, quando documenti ufficiali della specifica azione rendono verificabile una fase successiva. Non presumono che una proposta finanziata coincida con un Grant Agreement firmato.
+
+| Skill | Ambito |
+| --- | --- |
+| [eu-funding-grant-agreement-manager](eu-funding-grant-agreement-manager/SKILL.md) | Preparazione e lettura della convenzione, condizioni e obblighi |
+| [eu-funding-project-manager](eu-funding-project-manager/SKILL.md) | Work package, milestone, deliverable e rischi rispetto alla baseline contrattuale |
+| [eu-funding-reporting-manager](eu-funding-reporting-manager/SKILL.md) | Reporting tecnico-finanziario, costi, evidenze e obblighi di rendicontazione |
+| [eu-funding-closure-manager](eu-funding-closure-manager/SKILL.md) | Saldo, chiusura documentale e obblighi successivi |
+
+Il percorso esteso è: **istituzioni → gerarchia → programma → call → ammissibilità → finanza → progettazione/partnership → candidatura → review → controlli pre-invio → esiti → convenzione → esecuzione → reporting → chiusura**. Nessuna skill presenta report, firma accordi o certifica costi. Queste quattro skill sono guide documentali iniziali e non sono state validate end-to-end con agenti.
+
+### Interoperabilità con Business Funding Skills
+
+Il dossier canonico per questo repository resta `eu-funding-skills/dossier@v1`. Il repository [Business Funding Skills](https://github.com/aigconsulting/business-funding-skills) mette a disposizione un formato distinto e un convertitore **unidirezionale, limitato ai GRANT UE**. La conversione non eleva stati, non trasferisce automaticamente dati di progetto o finanza e va controllata tramite `dossier/check_dossier.py`. Non è presente una sincronizzazione automatica tra repository né un meccanismo di aggiornamento del dossier.
