@@ -13,6 +13,22 @@
       ]
     },
     {
+      "name": "eu-funding-audit-readiness",
+      "version": "73c79778c582",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-business-model-designer",
+      "version": "8b335d5b9da8",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-call-finder",
       "version": "52e210baf66c",
       "files": [
@@ -40,10 +56,26 @@
       ]
     },
     {
+      "name": "eu-funding-data-management",
+      "version": "77d1e0e609b2",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-dissemination-planner",
       "version": "c18917fb546f",
       "files": [
         "SKILL.md"
+      ]
+    },
+    {
+      "name": "eu-funding-dnsh-checker",
+      "version": "93b4daa02831",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -55,6 +87,14 @@
         "references/official-sources.md",
         "references/output-template.md",
         "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-ethics-assessment",
+      "version": "1f5d8add8baa",
+      "files": [
+        "SKILL.md",
         "scripts/check_skill.py"
       ]
     },
@@ -77,6 +117,14 @@
         "scripts/check_skill.py",
         "scripts/estimate_grant.py",
         "scripts/test_calculations.py"
+      ]
+    },
+    {
+      "name": "eu-funding-gender-equality",
+      "version": "c456fa2f8987",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -103,6 +151,22 @@
       "version": "4b5f9dd0f937",
       "files": [
         "SKILL.md"
+      ]
+    },
+    {
+      "name": "eu-funding-innovation-assessment",
+      "version": "826d19574db7",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-ipr-manager",
+      "version": "5b1d38f3f9ef",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -143,6 +207,14 @@
       ]
     },
     {
+      "name": "eu-funding-policy-alignment",
+      "version": "cbc491ff3ca4",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-post-submission-tracker",
       "version": "edef5e2b3443",
       "files": [
@@ -154,6 +226,14 @@
         "scripts/check_skill.py",
         "scripts/test_validator.py",
         "scripts/validate_tracker.py"
+      ]
+    },
+    {
+      "name": "eu-funding-procurement-checker",
+      "version": "e46e5ef79277",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -225,8 +305,40 @@
       ]
     },
     {
+      "name": "eu-funding-replication-scaling",
+      "version": "e45897fe77ef",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-reporting-manager",
       "version": "14a58876a787",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-risk-manager",
+      "version": "bd3df3f07e51",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-stakeholder-analysis",
+      "version": "b5107b7c9cb8",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-state-aid-checker",
+      "version": "d8681301ee92",
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
@@ -251,6 +363,14 @@
       "version": "e0d2fa5429ef",
       "files": [
         "SKILL.md"
+      ]
+    },
+    {
+      "name": "eu-funding-synergy-designer",
+      "version": "93e6e4864515",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
