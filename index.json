@@ -49,11 +49,25 @@
       ]
     },
     {
+      "name": "eu-funding-cost-benefit-analysis",
+      "version": "43b1d023fb3f",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "eu-funding-data-management",
       "version": "77d1e0e609b2",
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-dissemination-planner",
+      "version": "c18917fb546f",
+      "files": [
+        "SKILL.md"
       ]
     },
     {
@@ -82,6 +96,13 @@
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-evaluator-simulator",
+      "version": "9e4c9b06c8c0",
+      "files": [
+        "SKILL.md"
       ]
     },
     {
@@ -126,6 +147,13 @@
       ]
     },
     {
+      "name": "eu-funding-impact-assessment",
+      "version": "4b5f9dd0f937",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "eu-funding-innovation-assessment",
       "version": "826d19574db7",
       "files": [
@@ -139,6 +167,31 @@
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-logical-framework",
+      "version": "91eedc93cc01",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-monitoring-evaluation",
+      "version": "53a2d9477f4e",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "eu-funding-needs-assessment",
+      "version": "3edf7354e717",
+      "files": [
+        "SKILL.md"
       ]
     },
     {
@@ -204,6 +257,13 @@
         "references/output-template.md",
         "references/test-cases.md",
         "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-project-intelligence",
+      "version": "21baef16360e",
+      "files": [
+        "SKILL.md"
       ]
     },
     {
@@ -299,11 +359,32 @@
       ]
     },
     {
+      "name": "eu-funding-sustainability-planner",
+      "version": "e0d2fa5429ef",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
       "name": "eu-funding-synergy-designer",
       "version": "93e6e4864515",
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-theory-of-change",
+      "version": "f1650070e8ef",
+      "files": [
+        "SKILL.md"
+      ]
+    },
+    {
+      "name": "eu-funding-work-package-designer",
+      "version": "1c5927f4ba26",
+      "files": [
+        "SKILL.md"
       ]
     },
     {
