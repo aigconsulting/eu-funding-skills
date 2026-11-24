@@ -24,7 +24,7 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
 
-**Elenco completo delle 17 skill, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
+**Elenco delle 17 skill del percorso principale, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
 
 1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — Quadro istituzionale UE: istituzioni, DG, agenzie e processi decisionali.
 2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — Gerarchia dei fondi: priorità, QFP, programmi, work programme, call e topic.
@@ -43,6 +43,26 @@ Le fasi rappresentano un **percorso analitico e documentale**, non un flusso ese
 15. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Gestione documentale di work package, attività, deliverable e milestone.
 16. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
 17. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
+
+## Metodologie specialistiche e compliance
+
+Queste 15 skill integrano il percorso principale; si applicano nelle fasi pertinenti e non costituiscono passaggi obbligatori. Il diagramma del ciclo rappresenta le 17 skill originarie di questo branch.
+
+- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Analisi degli stakeholder.
+- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Gestione dei rischi.
+- [`eu-funding-innovation-assessment`](eu-funding-innovation-assessment/SKILL.md) — Innovazione e TRL.
+- [`eu-funding-ipr-manager`](eu-funding-ipr-manager/SKILL.md) — Proprietà intellettuale.
+- [`eu-funding-business-model-designer`](eu-funding-business-model-designer/SKILL.md) — Modello di business e adozione.
+- [`eu-funding-replication-scaling`](eu-funding-replication-scaling/SKILL.md) — Replicabilità e scalabilità.
+- [`eu-funding-ethics-assessment`](eu-funding-ethics-assessment/SKILL.md) — Valutazione etica preliminare.
+- [`eu-funding-dnsh-checker`](eu-funding-dnsh-checker/SKILL.md) — Verifica preliminare DNSH.
+- [`eu-funding-gender-equality`](eu-funding-gender-equality/SKILL.md) — Parità e dimensione di genere.
+- [`eu-funding-data-management`](eu-funding-data-management/SKILL.md) — DMP, FAIR e Open Science.
+- [`eu-funding-state-aid-checker`](eu-funding-state-aid-checker/SKILL.md) — Aiuti di Stato e cumulo.
+- [`eu-funding-procurement-checker`](eu-funding-procurement-checker/SKILL.md) — Acquisti e subappalti.
+- [`eu-funding-audit-readiness`](eu-funding-audit-readiness/SKILL.md) — Preparazione ai controlli.
+- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — Allineamento alle politiche UE.
+- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Sinergie e doppio finanziamento.
 
 ## Ordine operativo
 
