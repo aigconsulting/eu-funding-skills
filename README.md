@@ -24,7 +24,7 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
 
-**Elenco completo delle 17 skill, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
+**Elenco delle 17 skill del percorso principale, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
 
 1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — Quadro istituzionale UE: istituzioni, DG, agenzie e processi decisionali.
 2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — Gerarchia dei fondi: priorità, QFP, programmi, work programme, call e topic.
@@ -43,6 +43,21 @@ Le fasi rappresentano un **percorso analitico e documentale**, non un flusso ese
 15. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Gestione documentale di work package, attività, deliverable e milestone.
 16. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
 17. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
+
+## Skill specialistiche trasversali
+
+Dieci skill aggiuntive portano il catalogo di questo branch a 27 skill. Il diagramma precedente rappresenta le 17 skill del percorso principale; le specialistiche si utilizzano nelle fasi pertinenti, non come passaggi obbligatori.
+
+- [`eu-funding-project-intelligence`](eu-funding-project-intelligence/SKILL.md) — Benchmark dei progetti finanziati.
+- [`eu-funding-needs-assessment`](eu-funding-needs-assessment/SKILL.md) — Analisi dei fabbisogni.
+- [`eu-funding-theory-of-change`](eu-funding-theory-of-change/SKILL.md) — Teoria del cambiamento.
+- [`eu-funding-work-package-designer`](eu-funding-work-package-designer/SKILL.md) — WBS, attività e milestone.
+- [`eu-funding-impact-assessment`](eu-funding-impact-assessment/SKILL.md) — Valutazione dell'impatto.
+- [`eu-funding-cost-benefit-analysis`](eu-funding-cost-benefit-analysis/SKILL.md) — Analisi costi-benefici.
+- [`eu-funding-monitoring-evaluation`](eu-funding-monitoring-evaluation/SKILL.md) — Monitoraggio e valutazione.
+- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Comunicazione, disseminazione e sfruttamento.
+- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Sostenibilità post-finanziamento.
+- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Simulazione della valutazione.
 
 ## Ordine operativo
 
