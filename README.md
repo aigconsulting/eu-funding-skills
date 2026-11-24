@@ -10,21 +10,21 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 ## Skill disponibili
 
-![Diagramma del ciclo EU Funding Skills: 17 skill distribuite in cinque macrofasi, dall'orientamento istituzionale alla chiusura del finanziamento](assets/eu-funding-lifecycle.svg)
+![Diagramma del ciclo EU Funding Skills: 18 skill distribuite in cinque macrofasi, dall'orientamento istituzionale alla chiusura del finanziamento](assets/eu-funding-lifecycle.svg)
 
 [Apri il diagramma vettoriale SVG](assets/eu-funding-lifecycle.svg)
 
 | Macrofase | Passaggi | Risultato documentale |
 | --- | --- | --- |
 | **1. Orientamento e opportunità** | Quadro UE → gerarchia fondi → programmi → call/topic | Individuazione della misura e delle fonti ufficiali |
-| **2. Analisi e progettazione** | Ammissibilità → finanza → progetto → partenariato | Requisiti, budget e disegno progettuale motivati |
+| **2. Analisi e progettazione** | Ammissibilità → finanza → progetto → quadro logico → partenariato | Requisiti, budget e disegno progettuale motivati |
 | **3. Candidatura** | Pianificazione → redazione → review → pre-check | Proposta e controlli documentali pre-invio |
 | **4. Valutazione e accordo** | Tracciamento esiti → Grant Agreement | Esiti verificati e obblighi contrattuali documentati |
 | **5. Esecuzione e chiusura** | Project management → reporting → closure | Evidenze di avanzamento, rendicontazione e obblighi residui |
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
 
-**Elenco delle 17 skill del percorso principale, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
+**Elenco delle 18 skill del percorso principale, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
 
 1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — Quadro istituzionale UE: istituzioni, DG, agenzie e processi decisionali.
 2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — Gerarchia dei fondi: priorità, QFP, programmi, work programme, call e topic.
@@ -33,20 +33,21 @@ Le fasi rappresentano un **percorso analitico e documentale**, non un flusso ese
 5. [`eu-funding-eligibility-checker`](eu-funding-eligibility-checker/SKILL.md) — Verifica preliminare dei requisiti del beneficiario, del partenariato e del progetto.
 6. [`eu-funding-financial-checker`](eu-funding-financial-checker/SKILL.md) — Analisi di budget, costi ammissibili, tassi di finanziamento e cofinanziamento.
 7. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — Progettazione dell'intervento: contesto, obiettivi, attività, risultati e indicatori.
-8. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — Costruzione del partenariato e verifica dei ruoli richiesti dalla call.
-9. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — Pianificazione della candidatura e documentazione necessaria.
-10. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — Redazione della proposta secondo il formulario effettivamente applicabile.
-11. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — Revisione critica della proposta rispetto ai requisiti e ai criteri di valutazione.
-12. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — Controllo documentale pre-invio di file, allegati, formati e scadenze.
-13. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — Tracciamento degli esiti, delle comunicazioni e delle richieste post-invio.
-14. [`eu-funding-grant-agreement-manager`](eu-funding-grant-agreement-manager/SKILL.md) — Analisi del Grant Agreement, delle condizioni e degli obblighi contrattuali.
-15. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Gestione documentale di work package, attività, deliverable e milestone.
-16. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
-17. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
+8. [`eu-funding-logical-framework`](eu-funding-logical-framework/SKILL.md) — Logical Framework Approach: analisi causale, matrice, indicatori, baseline, target, fonti di verifica e assunzioni.
+9. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — Costruzione del partenariato e verifica dei ruoli richiesti dalla call.
+10. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — Pianificazione della candidatura e documentazione necessaria.
+11. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — Redazione della proposta secondo il formulario effettivamente applicabile.
+12. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — Revisione critica della proposta rispetto ai requisiti e ai criteri di valutazione.
+13. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — Controllo documentale pre-invio di file, allegati, formati e scadenze.
+14. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — Tracciamento degli esiti, delle comunicazioni e delle richieste post-invio.
+15. [`eu-funding-grant-agreement-manager`](eu-funding-grant-agreement-manager/SKILL.md) — Analisi del Grant Agreement, delle condizioni e degli obblighi contrattuali.
+16. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Gestione documentale di work package, attività, deliverable e milestone.
+17. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
+18. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
 
 ## Skill specialistiche trasversali
 
-Dieci skill aggiuntive portano il catalogo di questo branch a 27 skill. Il diagramma precedente rappresenta le 17 skill del percorso principale; le specialistiche si utilizzano nelle fasi pertinenti, non come passaggi obbligatori.
+Dieci skill aggiuntive portano il catalogo di questo branch a 28 skill. Il diagramma precedente rappresenta le 18 skill del percorso principale; le specialistiche si utilizzano nelle fasi pertinenti, non come passaggi obbligatori.
 
 - [`eu-funding-project-intelligence`](eu-funding-project-intelligence/SKILL.md) — Benchmark dei progetti finanziati.
 - [`eu-funding-needs-assessment`](eu-funding-needs-assessment/SKILL.md) — Analisi dei fabbisogni.
@@ -61,7 +62,7 @@ Dieci skill aggiuntive portano il catalogo di questo branch a 27 skill. Il diagr
 
 ## Ordine operativo
 
-**Quadro istituzionale → Gerarchia → Programma → Call/topic → Ammissibilità → Analisi finanziaria → Progettazione e partenariato → Piano di candidatura → Redazione → Revisione → Pre-check → Esiti → Grant Agreement → Gestione progetto → Reporting → Chiusura.** È possibile eseguire le singole skill autonomamente quando si conoscono già programma e topic.
+**Quadro istituzionale → Gerarchia → Programma → Call/topic → Ammissibilità → Analisi finanziaria → Progettazione → Quadro logico → Partenariato → Piano di candidatura → Redazione → Revisione → Pre-check → Esiti → Grant Agreement → Gestione progetto → Reporting → Chiusura.** È possibile eseguire le singole skill autonomamente quando si conoscono già programma e topic.
 
 ## Installazione
 
@@ -165,7 +166,7 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 
 ## Ciclo post-concessione
 
-Le fasi 14–17 dell'elenco principale si applicano dopo gli eventi documentati di selezione, sottoscrizione ed efficacia della convenzione. Le skill relative a Grant Agreement, gestione del progetto, reporting e chiusura sono guide documentali e non sostituiscono i controlli dell'autorità finanziatrice. Non presumono che la selezione equivalga a una convenzione firmata o a un pagamento ricevuto.
+Le fasi 15–18 dell'elenco principale si applicano dopo gli eventi documentati di selezione, sottoscrizione ed efficacia della convenzione. Le skill relative a Grant Agreement, gestione del progetto, reporting e chiusura sono guide documentali e non sostituiscono i controlli dell'autorità finanziatrice. Non presumono che la selezione equivalga a una convenzione firmata o a un pagamento ricevuto.
 
 ### Interoperabilità con Business Funding Skills
 
