@@ -13,6 +13,14 @@
       ]
     },
     {
+      "name": "eu-funding-business-model-designer",
+      "version": "8b335d5b9da8",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-call-finder",
       "version": "52e210baf66c",
       "files": [
@@ -33,6 +41,14 @@
       ]
     },
     {
+      "name": "eu-funding-dnsh-checker",
+      "version": "93b4daa02831",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-eligibility-checker",
       "version": "b9764177d056",
       "files": [
@@ -41,6 +57,14 @@
         "references/official-sources.md",
         "references/output-template.md",
         "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-ethics-assessment",
+      "version": "1f5d8add8baa",
+      "files": [
+        "SKILL.md",
         "scripts/check_skill.py"
       ]
     },
@@ -74,6 +98,22 @@
         "references/official-sources.md",
         "references/output-template.md",
         "references/taxonomy.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-innovation-assessment",
+      "version": "826d19574db7",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-ipr-manager",
+      "version": "5b1d38f3f9ef",
+      "files": [
+        "SKILL.md",
         "scripts/check_skill.py"
       ]
     },
@@ -165,8 +205,32 @@
       ]
     },
     {
+      "name": "eu-funding-replication-scaling",
+      "version": "e45897fe77ef",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-reporting-manager",
       "version": "14a58876a787",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-risk-manager",
+      "version": "bd3df3f07e51",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-stakeholder-analysis",
+      "version": "b5107b7c9cb8",
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
