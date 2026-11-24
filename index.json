@@ -13,6 +13,14 @@
       ]
     },
     {
+      "name": "eu-funding-audit-readiness",
+      "version": "73c79778c582",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-business-model-designer",
       "version": "8b335d5b9da8",
       "files": [
@@ -35,6 +43,14 @@
     {
       "name": "eu-funding-closure-manager",
       "version": "6a7d1b5a3600",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
+      "name": "eu-funding-data-management",
+      "version": "77d1e0e609b2",
       "files": [
         "SKILL.md",
         "scripts/check_skill.py"
@@ -80,6 +96,14 @@
         "scripts/check_skill.py",
         "scripts/estimate_grant.py",
         "scripts/test_calculations.py"
+      ]
+    },
+    {
+      "name": "eu-funding-gender-equality",
+      "version": "c456fa2f8987",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -130,6 +154,14 @@
       ]
     },
     {
+      "name": "eu-funding-policy-alignment",
+      "version": "cbc491ff3ca4",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-post-submission-tracker",
       "version": "edef5e2b3443",
       "files": [
@@ -141,6 +173,14 @@
         "scripts/check_skill.py",
         "scripts/test_validator.py",
         "scripts/validate_tracker.py"
+      ]
+    },
+    {
+      "name": "eu-funding-procurement-checker",
+      "version": "e46e5ef79277",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
@@ -237,6 +277,14 @@
       ]
     },
     {
+      "name": "eu-funding-state-aid-checker",
+      "version": "d8681301ee92",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-submission-checker",
       "version": "9040207f011b",
       "files": [
@@ -248,6 +296,14 @@
         "scripts/check_skill.py",
         "scripts/test_validator.py",
         "scripts/validate_precheck.py"
+      ]
+    },
+    {
+      "name": "eu-funding-synergy-designer",
+      "version": "93e6e4864515",
+      "files": [
+        "SKILL.md",
+        "scripts/check_skill.py"
       ]
     },
     {
