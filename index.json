@@ -78,6 +78,17 @@
       ]
     },
     {
+      "name": "eu-funding-logical-framework",
+      "version": "91eedc93cc01",
+      "files": [
+        "SKILL.md",
+        "references/official-sources.md",
+        "references/output-template.md",
+        "references/test-cases.md",
+        "scripts/check_skill.py"
+      ]
+    },
+    {
       "name": "eu-funding-partnership-designer",
       "version": "05466ed82dfe",
       "files": [
