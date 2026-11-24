@@ -23,6 +23,26 @@ This repository is an independent collection of skills for navigating European U
 
 12. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — *(existing numbering unchanged)* defines the partnership of the specific application: call requirements from official sources (mandatory consortium vs individual application), map of needed/available competences, [documented search of entities](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) with comparative assessment; **no contact and no invented agreement**, composition always labelled as a proposal.
 
+## Specialist methods and compliance
+
+These 15 skills complement the core lifecycle; they are not mandatory sequential steps.
+
+- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Stakeholder mapping.
+- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Risk management.
+- [`eu-funding-innovation-assessment`](eu-funding-innovation-assessment/SKILL.md) — Innovation and TRL.
+- [`eu-funding-ipr-manager`](eu-funding-ipr-manager/SKILL.md) — Intellectual property.
+- [`eu-funding-business-model-designer`](eu-funding-business-model-designer/SKILL.md) — Business and adoption models.
+- [`eu-funding-replication-scaling`](eu-funding-replication-scaling/SKILL.md) — Replication and scaling.
+- [`eu-funding-ethics-assessment`](eu-funding-ethics-assessment/SKILL.md) — Ethics pre-screening.
+- [`eu-funding-dnsh-checker`](eu-funding-dnsh-checker/SKILL.md) — DNSH screening.
+- [`eu-funding-gender-equality`](eu-funding-gender-equality/SKILL.md) — Gender equality and gender dimension.
+- [`eu-funding-data-management`](eu-funding-data-management/SKILL.md) — DMP, FAIR and Open Science.
+- [`eu-funding-state-aid-checker`](eu-funding-state-aid-checker/SKILL.md) — State aid and cumulation.
+- [`eu-funding-procurement-checker`](eu-funding-procurement-checker/SKILL.md) — Procurement and subcontracting.
+- [`eu-funding-audit-readiness`](eu-funding-audit-readiness/SKILL.md) — Audit readiness.
+- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — EU policy alignment.
+- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Synergies and double funding.
+
 ## Operating sequence
 
 **Hierarchy → Programme → Call/topic → Preliminary eligibility → Economic-financial analysis → Application plan → Proposal draft → Documentary review → Submission pre-check → Tracking of post-submission events.** Each skill can also run standalone when the programme and topic are already known.
