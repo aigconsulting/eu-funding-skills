@@ -24,7 +24,9 @@ Raccolta autonoma di skill per orientarsi nei finanziamenti dell'Unione europea,
 
 Le fasi rappresentano un **percorso analitico e documentale**, non un flusso eseguito automaticamente. Il passaggio alla convenzione e alla gestione post-concessione presuppone gli atti effettivamente intervenuti; selezione, firma, erogazione e saldo sono eventi distinti. Ogni skill resta utilizzabile autonomamente quando dispone delle fonti e degli input necessari.
 
-**Elenco delle 18 skill del percorso principale, nello stesso ordine e con la stessa numerazione del diagramma.** La numerazione indica il percorso operativo, non modifica i nomi delle skill o i riferimenti dei file.
+Il catalogo comprende **43 skill: 18 del ciclo principale e 25 specialistiche**, organizzate in sei aree. Le skill specialistiche non costituiscono passaggi obbligatori: si utilizzano secondo il progetto, la call e le evidenze disponibili.
+
+### Ciclo principale (18)
 
 1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — Quadro istituzionale UE: istituzioni, DG, agenzie e processi decisionali.
 2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — Gerarchia dei fondi: priorità, QFP, programmi, work programme, call e topic.
@@ -45,31 +47,39 @@ Le fasi rappresentano un **percorso analitico e documentale**, non un flusso ese
 17. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparazione e controllo del reporting tecnico-finanziario.
 18. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Verifica documentale della chiusura, del saldo e degli obblighi successivi.
 
-## Skill specialistiche trasversali
+### Skill specialistiche (25)
 
-Queste dieci skill, insieme alle quindici della sezione seguente, completano il catalogo di 43 skill. Il diagramma precedente rappresenta le 18 skill del percorso principale; le specialistiche si utilizzano nelle fasi pertinenti, non come passaggi obbligatori.
+#### Intelligence e orientamento (3)
 
 - [`eu-funding-project-intelligence`](eu-funding-project-intelligence/SKILL.md) — Benchmark dei progetti finanziati.
+- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — Allineamento alle politiche UE.
+- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Sinergie e doppio finanziamento.
+
+#### Metodologie di progettazione (5)
+
 - [`eu-funding-needs-assessment`](eu-funding-needs-assessment/SKILL.md) — Analisi dei fabbisogni.
+- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Analisi degli stakeholder.
 - [`eu-funding-theory-of-change`](eu-funding-theory-of-change/SKILL.md) — Teoria del cambiamento.
 - [`eu-funding-work-package-designer`](eu-funding-work-package-designer/SKILL.md) — WBS, attività e milestone.
+- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Gestione dei rischi.
+
+#### Valutazione economica e dell'impatto (5)
+
 - [`eu-funding-impact-assessment`](eu-funding-impact-assessment/SKILL.md) — Valutazione dell'impatto.
 - [`eu-funding-cost-benefit-analysis`](eu-funding-cost-benefit-analysis/SKILL.md) — Analisi costi-benefici.
 - [`eu-funding-monitoring-evaluation`](eu-funding-monitoring-evaluation/SKILL.md) — Monitoraggio e valutazione.
-- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Comunicazione, disseminazione e sfruttamento.
-- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Sostenibilità post-finanziamento.
-- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Simulazione della valutazione.
-
-## Metodologie specialistiche e compliance
-
-Queste 15 skill integrano il percorso principale; si applicano nelle fasi pertinenti e non costituiscono passaggi obbligatori. Il diagramma del ciclo rappresenta le 18 skill del percorso principale.
-
-- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Analisi degli stakeholder.
-- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Gestione dei rischi.
 - [`eu-funding-innovation-assessment`](eu-funding-innovation-assessment/SKILL.md) — Innovazione e TRL.
+- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Sostenibilità post-finanziamento.
+
+#### Valorizzazione e diffusione (4)
+
+- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Comunicazione, disseminazione e sfruttamento.
 - [`eu-funding-ipr-manager`](eu-funding-ipr-manager/SKILL.md) — Proprietà intellettuale.
 - [`eu-funding-business-model-designer`](eu-funding-business-model-designer/SKILL.md) — Modello di business e adozione.
 - [`eu-funding-replication-scaling`](eu-funding-replication-scaling/SKILL.md) — Replicabilità e scalabilità.
+
+#### Compliance e controlli (7)
+
 - [`eu-funding-ethics-assessment`](eu-funding-ethics-assessment/SKILL.md) — Valutazione etica preliminare.
 - [`eu-funding-dnsh-checker`](eu-funding-dnsh-checker/SKILL.md) — Verifica preliminare DNSH.
 - [`eu-funding-gender-equality`](eu-funding-gender-equality/SKILL.md) — Parità e dimensione di genere.
@@ -77,8 +87,10 @@ Queste 15 skill integrano il percorso principale; si applicano nelle fasi pertin
 - [`eu-funding-state-aid-checker`](eu-funding-state-aid-checker/SKILL.md) — Aiuti di Stato e cumulo.
 - [`eu-funding-procurement-checker`](eu-funding-procurement-checker/SKILL.md) — Acquisti e subappalti.
 - [`eu-funding-audit-readiness`](eu-funding-audit-readiness/SKILL.md) — Preparazione ai controlli.
-- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — Allineamento alle politiche UE.
-- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Sinergie e doppio finanziamento.
+
+#### Qualità della candidatura (1)
+
+- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Simulazione della valutazione.
 
 ## Ordine operativo
 
@@ -86,7 +98,7 @@ Queste 15 skill integrano il percorso principale; si applicano nelle fasi pertin
 
 ## Installazione
 
-Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md`, `references/` e `scripts/`, quindi lo stesso pacchetto funziona con Claude Code, OpenCode e gli altri client compatibili. Installare significa rendere disponibili le cartelle `eu-funding-*` nella directory di skill del client.
+Le skill seguono lo standard **Agent Skills**: ogni cartella contiene `SKILL.md` e, dove previsti, `references/` e `scripts/`, quindi lo stesso pacchetto funziona con Claude Code, OpenCode e gli altri client compatibili. Installare significa rendere disponibili le cartelle `eu-funding-*` nella directory di skill del client.
 
 ### Installazione da GitHub, senza clonare
 
@@ -147,21 +159,11 @@ Sostituendo `cp -R` con `ln -sfn "$PWD/${d%/}" "$DEST/${d%/}"` le skill restano 
 Dalla radice del pacchetto:
 
 ```bash
-python3 eu-funding-hierarchy/scripts/check_skill.py
-python3 eu-funding-programme-finder/scripts/check_skill.py
-python3 eu-funding-call-finder/scripts/check_skill.py
-python3 eu-funding-eligibility-checker/scripts/check_skill.py
-python3 eu-funding-financial-checker/scripts/check_skill.py
-python3 eu-funding-financial-checker/scripts/test_calculations.py
-python3 eu-funding-application-planner/scripts/check_skill.py
-python3 eu-funding-proposal-drafter/scripts/check_skill.py
-python3 eu-funding-proposal-drafter/scripts/test_validator.py
-python3 eu-funding-proposal-reviewer/scripts/check_skill.py
-python3 eu-funding-proposal-reviewer/scripts/test_validator.py
-python3 eu-funding-submission-checker/scripts/check_skill.py
-python3 eu-funding-submission-checker/scripts/test_validator.py
-python3 eu-funding-post-submission-tracker/scripts/check_skill.py
-python3 eu-funding-post-submission-tracker/scripts/test_validator.py
+set -e
+for script in eu-*/scripts/check_skill.py; do python3 "$script"; done
+for script in eu-funding-*/scripts/test_*.py; do [ ! -f "$script" ] || python3 "$script"; done
+python3 dossier/test_dossier.py
+python3 scripts/check_index.py
 ```
 
 I controlli `check_skill.py` attestano **solo struttura, metadati e coerenza locale**, non capacità agentiche o conformità giuridica. La Skill 05 aggiunge 10 test unitari aritmetici del calcolatore; la Skill 07 aggiunge 16 test unitari del validatore formale, la Skill 08 ne aggiunge 25 per il rapporto di revisione e la Skill 09 ne aggiunge 49 per il pre-check e la Skill 10 ne aggiunge 56 per il tracciamento post-invio. Nessuno è una verifica di conformità normativa. Le fonti devono essere verificate all'atto dell'uso; i casi nei file `references/test-cases.md` non sono test agentici eseguiti. Nessuna skill presenta domande di finanziamento, risponde a richieste delle autorità, effettua registrazioni o controlli ricorrenti autonomi. Il pre-check della Skill 09 non certifica ammissibilità e non è una ricevuta di invio.
@@ -180,8 +182,8 @@ La cartella [`dossier/`](dossier/) contiene una proposta di **formato di scambio
 
 ## Versioni
 
-- Skill 00–12: ciascuna v0.1 (bozza operativa testabile).
-- Pacchetto cumulativo: **v0.11**, 10 novembre 2026.
+- Catalogo: 43 skill; le 26 aggiunte sono bozze operative, non validazioni agentiche.
+- Ultima versione storica documentata del pacchetto: **v0.11**, 10 novembre 2026. Il catalogo corrente usa versioni per skill in `index.json`.
 - v0.11 aggiunge la skill `.claude/skills/install` (`/install`, `@install`), il catalogo HTTP `index.json` per installare le skill in OpenCode da URL e le istruzioni di installazione per Claude Code, OpenCode e gli altri client Agent Skills. Se modifichi i file di una skill, rigenera `index.json` con la nuova versione.
 
 ## Ciclo post-concessione

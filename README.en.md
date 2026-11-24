@@ -6,50 +6,66 @@ This repository is an independent collection of skills for navigating European U
 
 ## Available skills
 
-0. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — **Skill 00** (preparatory) — explains and reconstructs the EU institutional framework: institutions, consultative bodies, the Commission's structure, DGs and agencies, decision-making and budget processes, with a static map and dynamic on-demand research against primary sources; it does not search calls nor assess eligibility.
-1. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — reconstructs the documented hierarchy and links between priorities, MFF (QFP), programme, work programme, call and topic, taking the funding management modes into account.
-2. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — starts from an objective and identifies plausible EU programmes, funds and instruments, distinguishing purposes, modes and official channels.
-3. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — searches and verifies specific topics, calls and notices, with status, phases, deadlines, conditions and primary links.
-4. [`eu-funding-eligibility-checker`](eu-funding-eligibility-checker/SKILL.md) — performs a preliminary check of requirements for the applicant, eligible costs, partnership, project and submission, separating established blocks, conditions and documentation gaps. It does not issue eligibility certifications.
-5. [`eu-funding-financial-checker`](eu-funding-financial-checker/SKILL.md) — distinguishes programme/call/topic/project budgets, grants, eligible costs, rates, caps, co-financing and cash flows; includes a controllable arithmetic simulation, without awarding grants.
-6. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — reconstructs for each specific notice/phase the required documentation, criteria and deadlines for preparing the application, without applying schemes from other programmes and without submitting applications.
-7. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — drafts the proposal according to the form actually applicable, tracing requirements, sources and evidence, with placeholders for missing data and a formal manifest validator.
-8. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — compares an identified version of the proposal with the criteria and conditions of the specific opportunity, separating established findings, risks, information gaps and editorial suggestions. Integrates a formal report validator; it does not certify the proposal.
-9. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — runs documentary pre-checks on the final version, annexes, channel, deadlines and conditions of the specific opportunity; separates blocks, gaps and satisfied checks without submitting applications.
+![EU Funding Skills core lifecycle: 18 skills in five phases](assets/eu-funding-lifecycle.svg)
 
-10. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — reconstructs, in read-only mode, events after submission, authority communications, outcomes, possible requests and deadlines; separates verified updates, gaps and proposed actions, with no recurring monitoring and no changes to portals.
+[Open the vector diagram](assets/eu-funding-lifecycle.svg)
 
-11. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — *(placed between skills 06 and 07; existing numbering unchanged)* supports the substantive design of the project: context and needs, objectives, intervention logic, activities, results, impacts and verifiable indicators, with distinct states and [method sources](eu-funding-project-designer/references/design-method.md); delivers a dossier compatible with the [shared dossier](dossier/README.md) for drafting (skill 07), without filling the official form or inventing data.
+The catalog contains **43 skills: 18 core lifecycle skills and 25 specialist skills**, organized in six areas. Specialist methods are optional and should be selected according to the project, call and available evidence.
 
-12. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — *(existing numbering unchanged)* defines the partnership of the specific application: call requirements from official sources (mandatory consortium vs individual application), map of needed/available competences, [documented search of entities](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) with comparative assessment; **no contact and no invented agreement**, composition always labelled as a proposal.
+### Core lifecycle (18)
 
-13. [`eu-funding-logical-framework`](eu-funding-logical-framework/SKILL.md) — Logical Framework Approach: causal analysis, results chain, matrix, indicators, baselines, targets, verification sources and assumptions.
+1. [`eu-institutional-framework`](eu-institutional-framework/SKILL.md) — explains and reconstructs the EU institutional framework: institutions, consultative bodies, the Commission's structure, DGs and agencies, decision-making and budget processes, with a static map and dynamic on-demand research against primary sources; it does not search calls nor assess eligibility.
+2. [`eu-funding-hierarchy`](eu-funding-hierarchy/SKILL.md) — reconstructs the documented hierarchy and links between priorities, MFF (QFP), programme, work programme, call and topic, taking the funding management modes into account.
+3. [`eu-funding-programme-finder`](eu-funding-programme-finder/SKILL.md) — starts from an objective and identifies plausible EU programmes, funds and instruments, distinguishing purposes, modes and official channels.
+4. [`eu-funding-call-finder`](eu-funding-call-finder/SKILL.md) — searches and verifies specific topics, calls and notices, with status, phases, deadlines, conditions and primary links.
+5. [`eu-funding-eligibility-checker`](eu-funding-eligibility-checker/SKILL.md) — performs a preliminary check of requirements for the applicant, eligible costs, partnership, project and submission, separating established blocks, conditions and documentation gaps. It does not issue eligibility certifications.
+6. [`eu-funding-financial-checker`](eu-funding-financial-checker/SKILL.md) — distinguishes programme/call/topic/project budgets, grants, eligible costs, rates, caps, co-financing and cash flows; includes a controllable arithmetic simulation, without awarding grants.
+7. [`eu-funding-project-designer`](eu-funding-project-designer/SKILL.md) — supports the substantive design of the project: context and needs, objectives, intervention logic, activities, results, impacts and verifiable indicators, with distinct states and [method sources](eu-funding-project-designer/references/design-method.md); delivers a dossier compatible with the [shared dossier](dossier/README.md) for proposal drafting, without filling the official form or inventing data.
+8. [`eu-funding-logical-framework`](eu-funding-logical-framework/SKILL.md) — Logical Framework Approach: causal analysis, results chain, matrix, indicators, baselines, targets, verification sources and assumptions.
+9. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — defines the partnership of the specific application: call requirements from official sources (mandatory consortium vs individual application), map of needed/available competences, [documented search of entities](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) with comparative assessment; **no contact and no invented agreement**, composition always labelled as a proposal.
+10. [`eu-funding-application-planner`](eu-funding-application-planner/SKILL.md) — reconstructs for each specific notice/phase the required documentation, criteria and deadlines for preparing the application, without applying schemes from other programmes and without submitting applications.
+11. [`eu-funding-proposal-drafter`](eu-funding-proposal-drafter/SKILL.md) — drafts the proposal according to the form actually applicable, tracing requirements, sources and evidence, with placeholders for missing data and a formal manifest validator.
+12. [`eu-funding-proposal-reviewer`](eu-funding-proposal-reviewer/SKILL.md) — compares an identified version of the proposal with the criteria and conditions of the specific opportunity, separating established findings, risks, information gaps and editorial suggestions. Integrates a formal report validator; it does not certify the proposal.
+13. [`eu-funding-submission-checker`](eu-funding-submission-checker/SKILL.md) — runs documentary pre-checks on the final version, annexes, channel, deadlines and conditions of the specific opportunity; separates blocks, gaps and satisfied checks without submitting applications.
+14. [`eu-funding-post-submission-tracker`](eu-funding-post-submission-tracker/SKILL.md) — reconstructs, in read-only mode, events after submission, authority communications, outcomes, possible requests and deadlines; separates verified updates, gaps and proposed actions, with no recurring monitoring and no changes to portals.
+15. [`eu-funding-grant-agreement-manager`](eu-funding-grant-agreement-manager/SKILL.md) — Grant Agreement analysis, contractual obligations and conditions.
+16. [`eu-funding-project-manager`](eu-funding-project-manager/SKILL.md) — Documentary management of work packages, activities, deliverables and milestones.
+17. [`eu-funding-reporting-manager`](eu-funding-reporting-manager/SKILL.md) — Preparation and review of technical and financial reporting.
+18. [`eu-funding-closure-manager`](eu-funding-closure-manager/SKILL.md) — Documentary checks for closure, final payment and continuing obligations.
 
-## Cross-cutting specialist skills
+### Specialist skills (25)
 
-Ten additional skills complement the core lifecycle. These are optional methods, not mandatory sequential steps.
+#### Intelligence and orientation (3)
 
 - [`eu-funding-project-intelligence`](eu-funding-project-intelligence/SKILL.md) — Funded-project benchmarking.
+- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — EU policy alignment.
+- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Synergies and double funding.
+
+#### Project design methods (5)
+
 - [`eu-funding-needs-assessment`](eu-funding-needs-assessment/SKILL.md) — Needs and gap analysis.
+- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Stakeholder mapping.
 - [`eu-funding-theory-of-change`](eu-funding-theory-of-change/SKILL.md) — Causal pathways and assumptions.
 - [`eu-funding-work-package-designer`](eu-funding-work-package-designer/SKILL.md) — Work packages and dependencies.
+- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Risk management.
+
+#### Economic and impact assessment (5)
+
 - [`eu-funding-impact-assessment`](eu-funding-impact-assessment/SKILL.md) — Impact assessment.
 - [`eu-funding-cost-benefit-analysis`](eu-funding-cost-benefit-analysis/SKILL.md) — Cost-benefit and sensitivity analysis.
 - [`eu-funding-monitoring-evaluation`](eu-funding-monitoring-evaluation/SKILL.md) — Monitoring and evaluation.
-- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Communication, dissemination and exploitation.
-- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Post-grant sustainability.
-- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Evaluation simulation.
-
-## Specialist methods and compliance
-
-These 15 skills complement the core lifecycle; they are not mandatory sequential steps.
-
-- [`eu-funding-stakeholder-analysis`](eu-funding-stakeholder-analysis/SKILL.md) — Stakeholder mapping.
-- [`eu-funding-risk-manager`](eu-funding-risk-manager/SKILL.md) — Risk management.
 - [`eu-funding-innovation-assessment`](eu-funding-innovation-assessment/SKILL.md) — Innovation and TRL.
+- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Post-grant sustainability.
+
+#### Exploitation and dissemination (4)
+
+- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Communication, dissemination and exploitation.
 - [`eu-funding-ipr-manager`](eu-funding-ipr-manager/SKILL.md) — Intellectual property.
 - [`eu-funding-business-model-designer`](eu-funding-business-model-designer/SKILL.md) — Business and adoption models.
 - [`eu-funding-replication-scaling`](eu-funding-replication-scaling/SKILL.md) — Replication and scaling.
+
+#### Compliance and assurance (7)
+
 - [`eu-funding-ethics-assessment`](eu-funding-ethics-assessment/SKILL.md) — Ethics pre-screening.
 - [`eu-funding-dnsh-checker`](eu-funding-dnsh-checker/SKILL.md) — DNSH screening.
 - [`eu-funding-gender-equality`](eu-funding-gender-equality/SKILL.md) — Gender equality and gender dimension.
@@ -57,12 +73,14 @@ These 15 skills complement the core lifecycle; they are not mandatory sequential
 - [`eu-funding-state-aid-checker`](eu-funding-state-aid-checker/SKILL.md) — State aid and cumulation.
 - [`eu-funding-procurement-checker`](eu-funding-procurement-checker/SKILL.md) — Procurement and subcontracting.
 - [`eu-funding-audit-readiness`](eu-funding-audit-readiness/SKILL.md) — Audit readiness.
-- [`eu-funding-policy-alignment`](eu-funding-policy-alignment/SKILL.md) — EU policy alignment.
-- [`eu-funding-synergy-designer`](eu-funding-synergy-designer/SKILL.md) — Synergies and double funding.
+
+#### Proposal quality (1)
+
+- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Evaluation simulation.
 
 ## Operating sequence
 
-**Hierarchy → Programme → Call/topic → Preliminary eligibility → Economic-financial analysis → Application plan → Proposal draft → Documentary review → Submission pre-check → Tracking of post-submission events.** Each skill can also run standalone when the programme and topic are already known.
+**Institutional framework → Hierarchy → Programme → Call/topic → Eligibility → Financial analysis → Project design → Logical Framework → Partnership → Application plan → Proposal draft → Review → Pre-check → Outcomes → Grant Agreement → Project management → Reporting → Closure.** Each skill can also run standalone when the programme and topic are already known.
 
 ## Language note
 
@@ -70,7 +88,7 @@ The skills are written in Italian, but the language of a `SKILL.md` does **not**
 
 ## Installation
 
-The skills follow the **Agent Skills** standard: each folder contains `SKILL.md`, `references/` and `scripts/`, so the same package works with Claude Code, OpenCode and other compatible clients. Installing means making the `eu-funding-*` folders available in the client's skills directory.
+The skills follow the **Agent Skills** standard: each folder contains `SKILL.md` and, where provided, `references/` and `scripts/`, so the same package works with Claude Code, OpenCode and other compatible clients. Installing means making the `eu-funding-*` folders available in the client's skills directory.
 
 ### Install from GitHub, without cloning
 
@@ -131,21 +149,11 @@ Instead of `cp -R`, use `ln -sfn "$PWD/${d%/}" "$DEST/${d%/}"` to keep the skill
 From the package root:
 
 ```bash
-python3 eu-funding-hierarchy/scripts/check_skill.py
-python3 eu-funding-programme-finder/scripts/check_skill.py
-python3 eu-funding-call-finder/scripts/check_skill.py
-python3 eu-funding-eligibility-checker/scripts/check_skill.py
-python3 eu-funding-financial-checker/scripts/check_skill.py
-python3 eu-funding-financial-checker/scripts/test_calculations.py
-python3 eu-funding-application-planner/scripts/check_skill.py
-python3 eu-funding-proposal-drafter/scripts/check_skill.py
-python3 eu-funding-proposal-drafter/scripts/test_validator.py
-python3 eu-funding-proposal-reviewer/scripts/check_skill.py
-python3 eu-funding-proposal-reviewer/scripts/test_validator.py
-python3 eu-funding-submission-checker/scripts/check_skill.py
-python3 eu-funding-submission-checker/scripts/test_validator.py
-python3 eu-funding-post-submission-tracker/scripts/check_skill.py
-python3 eu-funding-post-submission-tracker/scripts/test_validator.py
+set -e
+for script in eu-*/scripts/check_skill.py; do python3 "$script"; done
+for script in eu-funding-*/scripts/test_*.py; do [ ! -f "$script" ] || python3 "$script"; done
+python3 dossier/test_dossier.py
+python3 scripts/check_index.py
 ```
 
 The `check_skill.py` checks attest **only structure, metadata and local consistency**, not agentic capability or legal compliance. Skill 05 adds 10 unit tests for the calculator; Skill 07 adds 16 unit tests for the formal validator, Skill 08 adds 25 for the review report, Skill 09 adds 49 for the pre-check and Skill 10 adds 56 for the post-submission tracking. None of these is a legal-compliance check. Sources must be verified at the time of use; the cases in the `references/test-cases.md` files are not executed agentic tests. No skill submits funding applications, replies to authority requests, performs registrations or runs recurring monitors. The Skill 09 pre-check is not an eligibility certification and is not a submission receipt.
@@ -160,6 +168,6 @@ The CI attests **only structure, metadata, local consistency and the arithmetic 
 
 ## Versions
 
-- Skills 00–12: each v0.1 (operational draft, testable).
-- Cumulative package: **v0.11**, 10 November 2026.
+- Catalog: 43 skills; the 26 additions are operational drafts, not validated agent runs.
+- Last documented historical package release: **v0.11**, 10 November 2026. Current per-skill versions are in `index.json`.
 - v0.11 adds the `.claude/skills/install` skill (`/install`, `@install`), the HTTP catalog `index.json` to install the skills in OpenCode from a URL, and installation instructions for Claude Code, OpenCode and other Agent Skills clients. If you modify a skill's files, regenerate `index.json` with the new version.
