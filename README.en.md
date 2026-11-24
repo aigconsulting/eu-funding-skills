@@ -23,6 +23,21 @@ This repository is an independent collection of skills for navigating European U
 
 12. [`eu-funding-partnership-designer`](eu-funding-partnership-designer/SKILL.md) — *(existing numbering unchanged)* defines the partnership of the specific application: call requirements from official sources (mandatory consortium vs individual application), map of needed/available competences, [documented search of entities](eu-funding-partnership-designer/references/official-sources.md) (CORDIS, partner search, NCP) with comparative assessment; **no contact and no invented agreement**, composition always labelled as a proposal.
 
+## Cross-cutting specialist skills
+
+Ten additional skills complement the core lifecycle. These are optional methods, not mandatory sequential steps.
+
+- [`eu-funding-project-intelligence`](eu-funding-project-intelligence/SKILL.md) — Funded-project benchmarking.
+- [`eu-funding-needs-assessment`](eu-funding-needs-assessment/SKILL.md) — Needs and gap analysis.
+- [`eu-funding-theory-of-change`](eu-funding-theory-of-change/SKILL.md) — Causal pathways and assumptions.
+- [`eu-funding-work-package-designer`](eu-funding-work-package-designer/SKILL.md) — Work packages and dependencies.
+- [`eu-funding-impact-assessment`](eu-funding-impact-assessment/SKILL.md) — Impact assessment.
+- [`eu-funding-cost-benefit-analysis`](eu-funding-cost-benefit-analysis/SKILL.md) — Cost-benefit and sensitivity analysis.
+- [`eu-funding-monitoring-evaluation`](eu-funding-monitoring-evaluation/SKILL.md) — Monitoring and evaluation.
+- [`eu-funding-dissemination-planner`](eu-funding-dissemination-planner/SKILL.md) — Communication, dissemination and exploitation.
+- [`eu-funding-sustainability-planner`](eu-funding-sustainability-planner/SKILL.md) — Post-grant sustainability.
+- [`eu-funding-evaluator-simulator`](eu-funding-evaluator-simulator/SKILL.md) — Evaluation simulation.
+
 ## Operating sequence
 
 **Hierarchy → Programme → Call/topic → Preliminary eligibility → Economic-financial analysis → Application plan → Proposal draft → Documentary review → Submission pre-check → Tracking of post-submission events.** Each skill can also run standalone when the programme and topic are already known.
